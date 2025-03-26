@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Filters</title>
+</head>
+<body>
+<form method="POST" action="{%url 'filter'%}">
+    {%csrf_token%}
+    <input type="text" placeholder="Occasion" name="occasion">
+    <button type="submit">Filter</button>
+</form>
+
+{%for i in data%}
+{{i.special_occasion}}
+{{i.gift_name}}
+<br>
+{%endfor%}
+</body>
+</html>
