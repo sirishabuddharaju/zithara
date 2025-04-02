@@ -1,0 +1,193 @@
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+<!--    <title>Admin Login</title>-->
+<!--    <style>-->
+<!--        /* General Styling */-->
+<!--        body {-->
+<!--            font-family: 'Poppins', sans-serif;-->
+<!--            background: linear-gradient(to right, #FF69B2, #FFC0CB);-->
+<!--            color: #000;-->
+<!--            display: flex;-->
+<!--            flex-direction: column;-->
+<!--            align-items: center;-->
+<!--            justify-content: center;-->
+<!--            min-height: 100vh;-->
+<!--            margin: 0;-->
+<!--            padding: 20px;-->
+<!--            text-align: center;-->
+<!--        }-->
+
+<!--        /* Container Styling */-->
+<!--        .con {-->
+<!--            background: white;-->
+<!--            padding: 30px;-->
+<!--            border-radius: 10px;-->
+<!--            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);-->
+<!--            max-width: 400px;-->
+<!--            width: 100%;-->
+<!--        }-->
+
+<!--        .inner {-->
+<!--            display: flex;-->
+<!--            flex-direction: column;-->
+<!--            align-items: center;-->
+<!--        }-->
+
+<!--        h2 {-->
+<!--            color: #000;-->
+<!--            font-size: 26px;-->
+<!--            margin-bottom: 20px;-->
+<!--            font-weight: bold;-->
+<!--        }-->
+
+<!--        table {-->
+<!--            width: 100%;-->
+<!--        }-->
+
+<!--        td {-->
+<!--            padding: 10px;-->
+<!--            text-align: left;-->
+<!--        }-->
+
+<!--        input {-->
+<!--            width: 100%;-->
+<!--            padding: 10px;-->
+<!--            border: 1px solid #ccc;-->
+<!--            border-radius: 5px;-->
+<!--        }-->
+
+<!--        button {-->
+<!--            background-color: #6a0572;-->
+<!--            color: white;-->
+<!--            padding: 10px 15px;-->
+<!--            border: none;-->
+<!--            border-radius: 5px;-->
+<!--            font-weight: bold;-->
+<!--            cursor: pointer;-->
+<!--            transition: background-color 0.3s;-->
+<!--            width: 100%;-->
+<!--        }-->
+
+<!--        button:hover {-->
+<!--            background-color: #4b034f;-->
+<!--        }-->
+
+<!--        /* Navbar Styling */-->
+<!--        .navbar {-->
+<!--            display: flex;-->
+<!--            justify-content: space-between;-->
+<!--            align-items: center;-->
+<!--            padding: 15px 20px;-->
+<!--            background-color: #d16ba5;-->
+<!--            color: white;-->
+<!--            position: fixed;-->
+<!--            width: 100%;-->
+<!--            top: 0;-->
+<!--            left: 0;-->
+<!--            z-index: 1000;-->
+<!--        }-->
+
+<!--        .menu-toggle {-->
+<!--            font-size: 24px;-->
+<!--            cursor: pointer;-->
+<!--        }-->
+
+<!--        .nav-links {-->
+<!--            display: flex;-->
+<!--            gap: 15px;-->
+<!--            margin-right: 20px;-->
+<!--        }-->
+
+<!--        .nav-links a {-->
+<!--            color: white;-->
+<!--            text-decoration: none;-->
+<!--            font-size: 16px;-->
+<!--            padding: 8px 12px;-->
+<!--            border-radius: 4px;-->
+<!--        }-->
+
+<!--        .nav-links a:hover {-->
+<!--            text-decoration: underline;-->
+<!--        }-->
+
+<!--        /* Footer Styling */-->
+<!--        .footer {-->
+<!--            background-color: #343a40;-->
+<!--            color: white;-->
+<!--            padding: 15px;-->
+<!--            text-align: center;-->
+<!--            position: fixed;-->
+<!--            width: 100%;-->
+<!--            bottom: 0;-->
+<!--            left: 0;-->
+<!--            font-size: 14px;-->
+<!--        }-->
+
+<!--        /* Responsive Design */-->
+<!--        @media screen and (max-width: 768px) {-->
+<!--            .menu-toggle {-->
+<!--                display: block;-->
+<!--            }-->
+<!--            .nav-links {-->
+<!--                display: none;-->
+<!--                flex-direction: column;-->
+<!--                position: absolute;-->
+<!--                top: 60px;-->
+<!--                right: 20px;-->
+<!--                background-color: #d16ba5;-->
+<!--                border-radius: 8px;-->
+<!--                padding: 10px;-->
+<!--            }-->
+<!--            .nav-links.active {-->
+<!--                display: flex;-->
+<!--            }-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <nav class="navbar">-->
+<!--        <div class="menu-toggle" onclick="toggleMenu()">|||||</div>-->
+<!--        <div class="nav-links">-->
+<!--            <a href="{% url 'home' %}">Home</a>-->
+<!--            <a href="{% url 'filter' %}">Filters</a>-->
+<!--            <a href="{% url 'login' %}">Login</a>-->
+<!--        </div>-->
+<!--    </nav>-->
+
+<!--    <script>-->
+<!--        function toggleMenu() {-->
+<!--            const navLinks = document.querySelector('.nav-links');-->
+<!--            navLinks.classList.toggle('active');-->
+<!--        }-->
+<!--    </script>-->
+
+<!--    <div class="con">-->
+<!--        <h2>Admin Login</h2>-->
+<!--        <div class="inner">-->
+<!--            <form method="POST" action="{% url 'login' %}">-->
+<!--                {% csrf_token %}-->
+<!--                <table>-->
+<!--                    <tr>-->
+<!--                        <td><label >Username:</label></td>-->
+<!--                        <td><input type="text" name="username" required></td>-->
+<!--                    </tr>-->
+<!--                    <tr>-->
+<!--                        <td><label >Password:</label></td>-->
+<!--                        <td><input type="password" name="password" required></td>-->
+<!--                    </tr>-->
+<!--                    <tr>-->
+<!--                        <td colspan="2" style="text-align: center;"><button type="submit">Login</button></td>-->
+<!--                    </tr>-->
+<!--                </table>-->
+<!--            </form>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <footer class="footer">-->
+<!--        <p>&copy; Buddharaju Sirisha | Finding the perfect gift made easy.</p>-->
+<!--    </footer>-->
+<!--</body>-->
+<!--</html>-->

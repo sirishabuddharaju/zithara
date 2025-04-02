@@ -4,18 +4,276 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Filters</title>
+    <style>
+        /* General Styling */
+       body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right,#FF69B2, #FFC0CB);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding-top: 80px; /* Adjust for fixed navbar */
+            padding-bottom: 60px; /* Adjust for fixed footer */
+            min-height: 100vh;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background-color: #d16ba5;
+            color: white;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+
+        }
+
+        .menu-toggle {
+            font-size: 24px;
+            cursor: pointer;
+            transform: scaleX(-1);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 15px;
+            margin-right: 20px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .nav-links a:hover {
+            background-color: #b54e88;
+        }
+
+        /* Form Container */
+        form {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        /* Input Fields & Select Dropdowns */
+        select {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #b0b3c2;
+            border-radius: 5px;
+            font-size: 16px;
+            color: #000;
+            background-color: #f9f9fb;
+            font-weight: bold;
+        }
+
+        /* Submit Button */
+        button {
+            background-color: #D8BFD8; /* Light purple */
+            color: white;
+            border: none;
+            padding: 14px;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #9a4eae; /* Darker purple */
+        }
+
+        /* Footer Styling */
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            font-size: 14px;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            .menu-toggle {
+                display: block;
+            }
+
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                right: 20px;
+                background-color: #d16ba5;
+                border-radius: 8px;
+                padding: 10px;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            form {
+                width: 90%; /* Adjust width for smaller screens */
+            }
+        }
+    </style>
 </head>
 <body>
+    <div>
+    <nav class="navbar">
+        <div class="menu-toggle" onclick="toggleMenu()">|||||</div>
+        <div class="nav-links">
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'filter' %}">Filters</a>
+            <a href="{% url 'about' %}">About Us</a>
+
+        </div>
+    </nav>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+    <div>
 <form method="POST" action="{%url 'filter'%}">
     {%csrf_token%}
-    <input type="text" placeholder="Occasion" name="occasion">
+<!--<label for="occasion">Occasion:</label>-->
+<select name="occasion" id="occasion" required>
+    <option value="" disabled selected>Select an Occasion</option>
+    <option value="Valentine's Day">Valentine's Day</option>
+    <option value="Graduation">Graduation</option>
+    <option value="Baby Shower">Baby Shower</option>
+    <option value="Anniversary">Anniversary</option>
+    <option value="Birthday">Birthday</option>
+    <option value="Christmas">Christmas</option>
+    <option value="New Year">New Year</option>
+    <option value="Wedding">Wedding</option>
+    <option value="Festival">Festival</option>
+    <option value="Retirement">Retirement</option>
+    <option value="HouseWarming">Housewarming</option>
+    <option value="Engagement">Engagement</option>
+    <option value="Farewell">Farewell</option>
+    <option value="New Job">New Job</option>
+    <option value="Promotion">Promotion</option>
+    <option value="Easter">Easter</option>
+    <option value="Halloween">Halloween</option>
+    <option value="Thanksgiving">Thanksgiving</option>
+    <option value="Diwali">Diwali</option>
+    <option value="Eid">Eid</option>
+    <option value="Raksha Bandhan">Raksha Bandhan</option>
+    <option value="Mother's Day">Mother's Day</option>
+    <option value="Father's Day">Father's Day</option>
+    <option value="Friendship Day">Friendship Day</option>
+    <option value="Teacher's Day">Teacher's Day</option>
+</select><br>
+
+
+<!--    <label for="budget">Budget:</label>-->
+<select name="b" id="budget" required>
+    <option value="" disabled selected>Select Budget</option>
+    <option value="High">High</option>
+    <option value="Medium">Medium</option>
+    <option value="Low">Low</option>
+</select><br>
+
+<!--<label for="gender">Gender:</label>-->
+<select name="g" id="gender" required>
+    <option value="" disabled selected>Select Gender</option>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    <option value="Other">Other</option>>
+</select><br>
+
+
+<!--    <label for="relation">Relation:</label>-->
+<select name="r" id="relation" required>
+    <option value="" disabled selected>Select Relation</option>
+    <option value="Partner">Partner</option>
+    <option value="Parent">Parent</option>
+    <option value="Friend">Friend</option>
+    <option value="Colleague">Colleague</option>
+    <option value="Sibling">Sibling</option>
+    <option value="Child">Child</option>
+    <option value="Grandparent">Grandparent</option>
+    <option value="Aunty">Aunty</option>
+    <option value="Uncle">Uncle</option>
+    <option value="Father">Father</option>
+    <option value="Mother">Mother</option>
+    <option value="Brother">Brother</option>
+    <option value="Sister">Sister</option>
+    <option value="Son">Son</option>
+    <option value="Daughter">Daughter</option>
+    <option value="Husband">Husband</option>
+    <option value="Wife">Wife</option>
+    <option value="Grandfather">Grandfather</option>
+    <option value="Grandmother">Grandmother</option>
+    <option value="Grandson">Grandson</option>
+    <option value="Granddaughter">Granddaughter</option>
+    <option value="Nephew">Nephew</option>
+    <option value="Niece">Niece</option>
+    <option value="Cousin">Cousin</option>
+    <option value="Father-in-law">Father-in-law</option>
+    <option value="Mother-in-law">Mother-in-law</option>
+    <option value="Brother-in-law">Brother-in-law</option>
+    <option value="Sister-in-law">Sister-in-law</option>
+    <option value="Boyfriend">Boyfriend</option>
+    <option value="Girlfriend">Girlfriend</option>
+    <option value="Fiancé">Fiancé</option>
+    <option value="Fiancée">Fiancée</option>
+    <option value="Spouse">Spouse</option>
+    <option value="Best Friend">Best Friend</option>
+    <option value="Close Friend">Close Friend</option>
+    <option value="Childhood Friend">Childhood Friend</option>
+    <option value="Classmate">Classmate</option>
+    <option value="Roommate">Roommate</option>
+    <option value="Neighbor">Neighbor</option>
+    <option value="Mentor">Mentor</option>
+    <option value="Boss">Boss</option>
+    <option value="Employee">Employee</option>
+    <option value="Manager">Manager</option>
+    <option value="Team Leader">Team Leader</option>
+    <option value="Business Partner">Business Partner</option>
+    <option value="Client">Client</option>
+    <option value="Teacher">Teacher</option>
+    <option value="Professor">Professor</option>
+    <option value="Student">Student</option>
+</select><br>
+
+
+
     <button type="submit">Filter</button>
 </form>
+</div>
 
-{%for i in data%}
-{{i.special_occasion}}
-{{i.gift_name}}
-<br>
-{%endfor%}
+ <footer class="footer">
+        <p>&copy; Buddharaju Sirisha | Finding the perfect gift made easy.</p>
+    </footer>
+
 </body>
 </html>

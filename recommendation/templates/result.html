@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gift Recommendations</title>
+    <style>
+      /* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #FF69B2, #FFC0CB);
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Heading Styling */
+h2 {
+    color: #000;
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Container for gift boxes */
+.gift-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* Gift Box */
+.gift-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 180px;
+    height: auto;
+    min-height: 280px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gift-box:hover {
+    transform: scale(1.03);
+}
+
+/* Gift Image */
+.gift-box img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Gift Details */
+.gift-details {
+    text-align: center;
+}
+
+.gift-details p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    color: #000;
+}
+
+/* No Results Message */
+.no-results {
+    font-style: italic;
+    color: white;
+}
+
+/* Back Button */
+.back a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #6a0572;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+ .back a:hover {
+    background-color: #4b034f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .gift-container {
+        gap: 15px;
+    }
+    .gift-box {
+        width: 160px;
+        min-height: 260px;
+    }
+    .gift-box img {
+        width: 90px;
+    }
+    .gift-details p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .gift-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .gift-box {
+        width: 140px;
+        min-height: 240px;
+    }
+    .gift-box img {
+        width: 80px;
+    }
+    .gift-details p {
+        font-size: 12px;
+    }
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #d16ba5;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.menu-toggle {
+    font-size: 24px;
+    cursor: pointer;
+    transform: scaleX(-1);
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #b54e88;
+
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #d16ba5;
+        border-radius: 8px;
+        padding: 10px;
+    }
+    .nav-links.active {
+        display: flex;
+    }
+}
+    </style>
+</head>
+<body>
+  <nav class="navbar">
+        <div class="menu-toggle" onclick="toggleMenu()">|||||</div>
+        <div class="nav-links">
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'filter' %}">Filters</a>
+            <a href="{% url 'about' %}">About Us</a>
+
+        </div>
+    </nav>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+<h2>Gift Recommendations</h2>
+
+{% if data %}
+    <div class="gift-container">
+        {% for i in data %}
+            <div class="gift-box">
+                {% if i.gift_name == "Teddy Bear" %}
+                    <img src="recommendation/media/teddy_bear.jpeg" width="100">
+                {% endif %}
+                <div class="gift-details">
+                    <p>{{ i.gift_name }} <br> ${{ i.price }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% else %}
+    <p class="no-results">No gifts found matching your filters.</p>
+{% endif %}
+  </div>
+<div class="back">
+<a href="/"> Back </a>
+  </div>
+
+<footer class="footer">
+        <p>&copy; Buddharaju Sirisha | Finding the perfect gift made easy.</p>
+    </footer>
+</body>
+</html>

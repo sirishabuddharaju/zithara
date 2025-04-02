@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add Data</title>
+  <style>
+/* General styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:#F4A7B9; /* Medium pink background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 10px;
+}
+
+/* Form container */
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;  /* Takes full width */
+    max-width: 500px; /* Limits width for large screens */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input fields */
+input {
+    width: 92.50%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #b0b3c2;
+    border-radius: 5px;
+    text-align:center;
+    font-size: 16px;
+    color: #000; /* Bold and black text */
+    background-color: #f9f9fb;
+    font-weight: bold;
+}
+
+/* Select dropdowns */
+select {
+    width: 99.10%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #b0b3c2;
+    border-radius: 5px;
+    text-align:center;
+    font-size: 16px;
+    color: #000; /* Bold and black text */
+    background-color: #f9f9fb;
+    font-weight: bold;
+}
+
+/* Placeholder text color */
+input::placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+/* Submit button */
+button {
+    background-color: #D8BFD8; /* Light purple */
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #9a4eae; /* Darker purple */
+}
+
+ @media(max-width:600px){
+    form{
+    width:90%; /*Adjusts width for smaller screens*/
+    }
+    body {
+        height: auto; /* Allows scrolling on smaller screens */
+        align-items: flex-start; /* Prevents form from being cut off */
+    }
+   }
+
+  </style>
+
+</head>
+<body>
+<form method="POST" action="{%url 'adddata'%}">
+    {%csrf_token%}
+<!--  <label >User Location</label>-->
+  <input type="text" placeholder="User Location" name="U"><br>
+
+  <input type="integer" placeholder="User Age" name="UA"><br>
+
+
+<!-- <label for="UG">User Gender</label>-->
+ <select name="UG" id="UG" required>
+    <option value="" disabled selected>select User Gender</option>
+    <option value="Female">Female</option>
+    <option value="Male">Male</option>
+    <option value="Other">Other</option>
+</select><br>
+
+
+<!--<label for="RR">Recipient Relation</label>-->
+<select name="RR" id="RR" required>
+    <option value="" disabled selected>Select Reciepient Relation</option>
+    <option value="Partner">Partner</option>
+    <option value="Parent">Parent</option>
+    <option value="Friend">Friend</option>
+    <option value="Colleague">Colleague</option>
+    <option value="Sibling">Sibling</option>
+    <option value="Child">Child</option>
+    <option value="Grandparent">Grandparent</option>
+    <option value="Aunty">Aunty</option>
+    <option value="Uncle">Uncle</option>
+    <option value="Father">Father</option>
+    <option value="Mother">Mother</option>
+    <option value="Brother">Brother</option>
+    <option value="Sister">Sister</option>
+    <option value="Son">Son</option>
+    <option value="Daughter">Daughter</option>
+    <option value="Husband">Husband</option>
+    <option value="Wife">Wife</option>
+    <option value="Grandfather">Grandfather</option>
+    <option value="Grandmother">Grandmother</option>
+    <option value="Grandson">Grandson</option>
+    <option value="Granddaughter">Granddaughter</option>
+    <option value="Nephew">Nephew</option>
+    <option value="Niece">Niece</option>
+    <option value="Cousin">Cousin</option>
+    <option value="Father-in-law">Father-in-law</option>
+    <option value="Mother-in-law">Mother-in-law</option>
+    <option value="Brother-in-law">Brother-in-law</option>
+    <option value="Sister-in-law">Sister-in-law</option>
+    <option value="Boyfriend">Boyfriend</option>
+    <option value="Girlfriend">Girlfriend</option>
+    <option value="Fiancé">Fiancé</option>
+    <option value="Fiancée">Fiancée</option>
+    <option value="Spouse">Spouse</option>
+    <option value="Best Friend">Best Friend</option>
+    <option value="Close Friend">Close Friend</option>
+    <option value="Childhood Friend">Childhood Friend</option>
+    <option value="Classmate">Classmate</option>
+    <option value="Roommate">Roommate</option>
+    <option value="Neighbor">Neighbor</option>
+    <option value="Mentor">Mentor</option>
+    <option value="Boss">Boss</option>
+    <option value="Employee">Employee</option>
+    <option value="Manager">Manager</option>
+    <option value="Team Leader">Team Leader</option>
+    <option value="Business Partner">Business Partner</option>
+    <option value="Client">Client</option>
+    <option value="Teacher">Teacher</option>
+    <option value="Professor">Professor</option>
+    <option value="Student">Student</option>
+</select><br>
+<!--    <label >Recipient Age</label>-->
+    <input type="integer" placeholder="Reciepient Age" name="RA"><br>
+
+<!--<label for="RG">Recipient Gender</label>-->
+<select name="RG" id="RG" required>
+    <option value="" disabled selected>Select Reciepient Gender</option>
+    <option value="Female">Female</option>
+    <option value="Male">Male</option>
+    <option value="Other">Other</option>
+</select><br>
+<!--  <label >Reciepient Interests</label>-->
+<input type="text" placeholder="Reciepient Interests" name="RI"><br>
+
+<!--<label for="SO">Occasion</label>-->
+<select name="SO" id="SO" required>
+    <option value="" disabled selected>Select Occasion</option>
+    <option value="Valentine's Day">Valentine's Day</option>
+    <option value="Graduation">Graduation</option>
+    <option value="Baby Shower">Baby Shower</option>
+    <option value="Anniversary">Anniversary</option>
+    <option value="Birthday">Birthday</option>
+    <option value="Christmas">Christmas</option>
+    <option value="New Year">New Year</option>
+    <option value="Wedding">Wedding</option>
+    <option value="Festival">Festival</option>
+    <option value="Retirement">Retirement</option>
+    <option value="HouseWarming">HouseWarming</option>
+    <option value="Engagement">Engagement</option>
+    <option value="Farewell">Farewell</option>
+    <option value="New Job">New Job</option>
+    <option value="Promotion">Promotion</option>
+    <option value="Easter">Easter</option>
+    <option value="Halloween">Halloween</option>
+    <option value="Thanksgiving">Thanksgiving</option>
+    <option value="Diwali">Diwali</option>
+    <option value="Eid">Eid</option>
+    <option value="Raksha Bandhan">Raksha Bandhan</option>
+    <option value="Mother's Day">Mother's Day</option>
+    <option value="Father's Day">Father's Day</option>
+    <option value="Friendship Day">Friendship Day</option>
+    <option value="Teacher's Day">Teacher's Day</option>
+</select><br>
+
+
+<!--<label for="B">Budget</label>-->
+<select name="B" id="B" required>
+    <option value="" disabled selected>Select Budget</option>
+    <option value="High">High</option>
+    <option value="Medium">Medium</option>
+    <option value="Low">Low</option>
+</select><br>
+
+<!--  <label>Gift Name</label>-->
+  <input type="text" placeholder="Gift Name" name="GN"><br>
+<!--  <label>Gift Category</label>-->
+  <input type="text" placeholder="Category" name="C"><br>
+<!--  <label>Brand</label>-->
+  <input type="text" placeholder="Brand" name="BR"><br>
+<!--  <label>Price</label>-->
+  <input type="text" placeholder="Price" name="P"><br>
+<!--  <label>Description</label>-->
+  <input type="text" placeholder="Description" name="GD"><br>
+<!--  <label>Gift Rating</label>-->
+  <input type="text" placeholder="Gift Rating" name="GR"><br>
+
+
+    <button type="submit">Save</button>
+</form>
+
+
+</body>
+</html>

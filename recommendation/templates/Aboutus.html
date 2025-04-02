@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Us - Gift Recommendation</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #FF69B2, #FFC0CB);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 20px;
+            background-color: #d16ba5;
+            color: white;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .menu-toggle {
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 15px;
+            margin-right: 20px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px 15px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .nav-links a:hover {
+            background-color: #b54e88;
+        }
+
+        /* About Us Heading */
+        .about-heading {
+            margin: 80px 0 5px 0;
+            font-size: 2rem;
+            font-weight: bold;
+            color: black;
+        }
+
+        /* About Us Section */
+        .about-us {
+            width: 100%;
+            max-width: 1200px;
+            padding: 10px 5%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .about-box {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 15px;
+            margin: 5px;
+            flex: 1;
+            min-width: 250px;
+            max-width: 280px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-box h2 {
+            color: black;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
+
+        .about-box p, .about-box ul {
+            color: white;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        .about-box ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .about-box ul li {
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        /* Footer Styling */
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            font-size: 14px;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            .menu-toggle {
+                display: block;
+            }
+
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                right: 20px;
+                background-color: #d16ba5;
+                border-radius: 8px;
+                padding: 10px;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .about-us {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        <div class="nav-links">
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'filter' %}">Filters</a>
+            <a href="{% url 'about' %}">About Us</a>
+        </div>
+    </nav>
+
+    <section class="about-heading">
+        <h1>About Us</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="about-box">
+            <h2>Our Vision</h2>
+            <p>We aim to become the leading platform for personalized gifting, simplifying your shopping experience by offering thoughtful,
+                curated recommendations tailored to every occasion and recipient.</p>
+        </div>
+        <div class="about-box">
+            <h2>Our Mission</h2>
+            <p>To bring joy through meaningful and thoughtful gifting experiences, we strive to understand individual preferences and unique occasions. Our goal is to make every gift special,
+                ensuring it reflects the emotions and sentiments of the giver.</p>
+        </div>
+        <div class="about-box">
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li>Personalized Gift Recommendations</li>
+                <li>Wide Range of Categories and Occasions</li>
+                <li>Exclusive Offers and Deals</li>
+                <li>Easy-to-use Interface</li>
+                <li>Responsive Support Team</li>
+            </ul>
+        </div>
+        <div class="about-box">
+            <h2>How It Works</h2>
+            <p>Our personalized gift recommendation system works by analyzing user preferences, past selections, and special occasions to suggest the most suitable gifts.
+                It utilizes machine learning algorithms and a curated database to match gifts based on interests, age, and relationships. </p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; Buddharaju Sirisha | Finding the perfect gift made easy.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
