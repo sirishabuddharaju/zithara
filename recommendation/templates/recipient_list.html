@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recipient List</title>
+</head>
+<body>
+    <h1>Recipient List</h1>
+    <a href="{%url 'adddata'%}">Add New Recipient</a>
+    <ul>
+        {% for recipient in recipients %}
+            <li>
+                {{ recipient.gift_name }}
+                <a href="{% url 'edit_recipient' recipient.pk %}">Edit</a> |
+                <a href="{% url 'delete_recipient' recipient.pk %}">Delete</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

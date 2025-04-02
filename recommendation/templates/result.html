@@ -217,6 +217,7 @@ h2 {
             <a href="{% url 'home' %}">Home</a>
             <a href="{% url 'filter' %}">Filters</a>
             <a href="{% url 'about' %}">About Us</a>
+            <a href="{% url 'contact' %}">Contact Us</a>
 
         </div>
     </nav>
@@ -234,7 +235,7 @@ h2 {
         {% for i in data %}
             <div class="gift-box">
                 {% if i.gift_name == "Teddy Bear" %}
-                    <img src="recommendation/media/teddy_bear.jpeg" width="100">
+                    <img src="" width="100">
                 {% endif %}
                 <div class="gift-details">
                     <p>{{ i.gift_name }} <br> ${{ i.price }}</p>

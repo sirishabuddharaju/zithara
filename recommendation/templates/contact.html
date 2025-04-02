@@ -160,7 +160,8 @@
         <div class="nav-links">
             <a href="{% url 'home' %}">Home</a>
             <a href="{% url 'filter' %}">Filters</a>
-            <a href="{% url 'login' %}">Login</a>
+             <a href="{% url 'about' %}">About Us</a>
+            <a href="{% url 'contact' %}">Contact Us</a>
         </div>
     </nav>
     </div>
@@ -183,7 +184,7 @@
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
-            <label for="phone">Phone:</label>
+            <label for="phone">Phone No:</label>
             <input type="text" id="phone" name="phone" required>
 
             <label for="email">Email:</label>
@@ -203,4 +204,3 @@
 </html>
 
 
-{%endblock%}
