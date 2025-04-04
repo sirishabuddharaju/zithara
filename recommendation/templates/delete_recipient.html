@@ -4,13 +4,210 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Delete Recipient</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right,#FF69B2, #FFC0CB);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding-top: 80px; /* Adjust for fixed navbar */
+            padding-bottom: 60px; /* Adjust for fixed footer */
+            min-height: 100vh;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background-color: #d16ba5;
+            color: white;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .menu-toggle {
+            font-size: 24px;
+            cursor: pointer;
+            transform: scaleX(-1);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 15px;
+            margin-right: 20px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .nav-links a:hover {
+            background-color: #b54e88;
+        }
+
+        /* Confirmation Section */
+        h1 {
+            margin-top: 50px;
+            color: #fff;
+            text-align: center;
+        }
+
+        form {
+            text-align: center;
+            margin-top: 20px;
+        }
+                /* Submit Button */
+        button {
+            background-color:background-color: rgb(230, 168, 215);
+            color: white;
+            border: none;
+            padding: 14px;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #9a4eae; /* Darker purple */
+        }
+
+
+        .button-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    /* Styling for Both Buttons */
+    .button-container button {
+        width: 48%;
+        background-color: rgb(200, 150, 215);
+        color: white;
+        border: none;
+        padding: 14px;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .button-container button:hover {
+        background-color: #9a4eae; /* Darker purple */
+    }
+
+    /* Ensuring the anchor inside button looks like text */
+    .button-container button a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    /* Responsive Design */
+    @media screen and (max-width: 600px) {
+        .button-container {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .button-container button {
+            width: 100%;
+        }
+    }
+
+
+        /* Footer Styling */
+        .footer {
+             background-color: #343a40;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            font-size: 14px;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            .menu-toggle {
+                display: block;
+            }
+
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                right: 20px;
+                background-color: #d16ba5;
+                border-radius: 8px;
+                padding: 10px;
+                width: 200px;
+            }
+
+            .nav-links.active {
+                display: flex !important;
+            }
+
+            form {
+                width: 90%;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Are you sure you want to delete {{ recipient.gift_name }}?</h1>
-    <form method="POST">
-        {% csrf_token %}
-        <button type="submit">Yes, Delete</button>
-    </form>
-    <a href="{% url 'recipient_list' %}">Cancel</a>
+    <nav class="navbar">
+        <div class="menu-toggle" onclick="toggleMenu()">|||||</div>
+        <div class="nav-links">
+             <a href="{% url 'home' %}">Home</a>
+            <a href="{%url 'adddata'%}">Add Data</a>
+            <a href="{%url 'recipient_list'%}">View Data</a>
+            <a href="{%url 'recipient_update'%}">Update Data</a>
+            <a href="{%url 'recipient_delete'%}">Delete Data</a>
+            <a href="{%url 'admin_logout'%}">Logout</a>
+        </div>
+    </nav>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+
+    <div style="text-align: center;">
+        <h1>Are you sure you want to delete <strong>{{ recipient.gift_name }}</strong>?</h1>
+        <form method="POST">
+            {% csrf_token %}
+            <div class="button-container">
+            <button type="submit">Yes, Delete</button>
+            <button><a href="{% url 'recipient_list' %}" class="cancel-btn">Cancel</a></button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; Buddharaju Sirisha | Finding the perfect gift made easy.</p>
+    </footer>
 </body>
 </html>

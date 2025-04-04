@@ -205,7 +205,7 @@ h2 {
         padding: 10px;
     }
     .nav-links.active {
-        display: flex;
+        display: flex !important;
     }
 }
     </style>
@@ -214,10 +214,12 @@ h2 {
   <nav class="navbar">
         <div class="menu-toggle" onclick="toggleMenu()">|||||</div>
         <div class="nav-links">
-            <a href="{% url 'home' %}">Home</a>
+           <a href="{% url 'home' %}">Home</a>
             <a href="{% url 'filter' %}">Filters</a>
             <a href="{% url 'about' %}">About Us</a>
-            <a href="{% url 'contact' %}">Contact Us</a>
+            <a href="{%url 'contact_view'%}">Contact Us</a>
+            <a href="{% url 'admin_login' %}">Add Data</a>
+             <a href="{% url 'user_logout' %}">Logout</a>
 
         </div>
     </nav>
@@ -248,7 +250,7 @@ h2 {
 {% endif %}
   </div>
 <div class="back">
-<a href="/"> Back </a>
+<a href="{% url 'filter' %}">Back</a>
   </div>
 
 <footer class="footer">

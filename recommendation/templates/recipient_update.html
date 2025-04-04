@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Recipient List</title>
+    <title>Recipient update</title>
     <style>
         /* Global Styles */
         body {
@@ -124,7 +124,6 @@
 
 
 
-
         a {
             text-decoration: none;
             padding: 8px 12px;
@@ -176,6 +175,23 @@
             }
         }
 
+
+
+
+
+
+
+/* Delete Button */
+.edit-btn {
+    background-color: green;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #c82333;
+}
+
+
     </style>
 </head>
 <body>
@@ -183,7 +199,7 @@
     <nav class="navbar">
         <div class="menu-toggle" onclick="toggleMenu()">|||||</div>
         <div class="nav-links">
-              <a href="{% url 'home' %}">Home</a>
+             <a href="{% url 'home' %}">Home</a>
             <a href="{%url 'adddata'%}">Add Data</a>
             <a href="{%url 'recipient_list'%}">View Data</a>
             <a href="{%url 'recipient_update'%}">Update Data</a>
@@ -205,6 +221,7 @@
     <div class="table-container">
         <table>
             <tr>
+                <th>Action</th>
                 <th>User Location</th>
                 <th>User Age</th>
                 <th>User Gender</th>
@@ -224,6 +241,10 @@
             </tr>
             {% for recipient in recipients %}
             <tr>
+                 <td >
+                    <a href="{% url 'edit_recipient' recipient.pk %}" class="edit-btn" >update</a>
+
+                </td>
                 <td>{{ recipient.user_location }}</td>
                 <td>{{ recipient.user_age }}</td>
                 <td>{{ recipient.user_gender }}</td>
@@ -239,6 +260,7 @@
                 <td>{{ recipient.price }}</td>
                 <td>{{ recipient.description }}</td>
                 <td>{{ recipient.gift_rating }}</td>
+
             </tr>
             {% endfor %}
         </table>

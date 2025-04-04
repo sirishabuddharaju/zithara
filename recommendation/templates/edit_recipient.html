@@ -1,20 +1,276 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Recipient</title>
+    <style>
+        /* General Styling */
+       body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right,#FF69B2, #FFC0CB);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding-top: 80px; /* Adjust for fixed navbar */
+            padding-bottom: 60px; /* Adjust for fixed footer */
+            min-height: 100vh;
+        }
+
+        .button-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    /* Styling for Both Buttons */
+    .button-container button {
+        width: 48%;
+        background-color: #D8BFD8; /* Light purple */
+        color: white;
+        border: none;
+        padding: 14px;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .button-container button:hover {
+        background-color: #9a4eae; /* Darker purple */
+    }
+
+    /* Ensuring the anchor inside button looks like text */
+    .button-container button a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Responsive Design */
+    @media screen and (max-width: 600px) {
+        .button-container {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .button-container button {
+            width: 100%;
+        }
+    }
+
+        /* Navbar Styling */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background-color: #d16ba5;
+            color: white;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+
+        }
+
+        .menu-toggle {
+            font-size: 24px;
+            cursor: pointer;
+            transform: scaleX(-1);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 15px;
+            margin-right: 20px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .nav-links a:hover {
+            background-color: #b54e88;
+        }
+
+        /* Form Container */
+        form {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+
+        /* Input Fields & Select Dropdowns */
+        input {
+            width: 95%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #b0b3c2;
+            border-radius: 5px;
+            font-size: 16px;
+            color: #000;
+            background-color: #f9f9fb;
+            font-weight: bold;
+        }
+
+        /* Submit Button */
+        button {
+            background-color: #D8BFD8; /* Light purple */
+            color: white;
+            border: none;
+            padding: 14px;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #9a4eae; /* Darker purple */
+        }
+
+        /* Footer Styling */
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            font-size: 14px;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            .menu-toggle {
+                display: block;
+            }
+
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                right: 20px;
+                background-color: #d16ba5;
+                border-radius: 8px;
+                padding: 10px;
+            }
+
+            .nav-links.active {
+                display: flex !important;
+            }
+
+            form {
+                width: 90%; /* Adjust width for smaller screens */
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Edit Recipient</h1>
+<div>
+    <nav class="navbar">
+        <div class="menu-toggle" onclick="toggleMenu()">|||||</div>
+        <div class="nav-links">
+             <a href="{% url 'home' %}">Home</a>
+            <a href="{%url 'adddata'%}">Add Data</a>
+            <a href="{%url 'recipient_list'%}">View Data</a>
+            <a href="{%url 'recipient_update'%}">Update Data</a>
+            <a href="{%url 'recipient_delete'%}">Delete Data</a>
+             <a href="{%url 'admin_logout'%}">Logout</a>
+
+        </div>
+    </nav>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+
+<div>
+    <h1 style="text-align: center;">Edit Recipient</h1>
     <form method="POST">
         {% csrf_token %}
-        <label>Gift Name:</label><br>
+
+        <label>User Location:</label>
+        <input type="text" name="U" value="{{ recipient.user_location }}" required><br>
+
+        <label>User Age:</label>
+        <input type="number" name="UA" value="{{ recipient.user_age }}" required><br>
+
+        <label>User Gender:</label>
+        <input type="text" name="UG" value="{{ recipient.user_gender }}" required><br>
+
+        <label>Recipient Relationship:</label>
+        <input type="text" name="RR" value="{{ recipient.recipient_relationship }}" required><br>
+
+        <label>Recipient Age:</label>
+        <input type="number" name="RA" value="{{ recipient.recipient_age }}" required><br>
+
+        <label>Recipient Gender:</label>
+        <input type="text" name="RG" value="{{ recipient.recipient_gender }}" required><br>
+
+        <label>Recipient Interests:</label>
+        <input type="text" name="RI" value="{{ recipient.recipient_interests }}" required><br>
+
+        <label>Special Occasion:</label>
+        <input type="text" name="SO" value="{{ recipient.special_occasion }}" required><br>
+
+        <label>Budget Preference:</label>
+        <input type="text" name="B" value="{{ recipient.budget_preference }}" required><br>
+
+        <label>Gift Name:</label>
         <input type="text" name="GN" value="{{ recipient.gift_name }}" required><br>
-        <label>Price:</label><br>
-        <input type="number" step="0.01" name="P" value="{{ recipient.price }}" required><br>
-        <!-- Add other fields similarly -->
-        <button type="submit">Update Recipient</button>
+
+        <label>Category:</label>
+        <input type="text" name="C" value="{{ recipient.category }}" required><br>
+
+        <label>Brand:</label>
+        <input type="text" name="BR" value="{{ recipient.brand }}" required><br>
+
+        <label>Price:</label>
+        <input type="number" name="P" value="{{ recipient.price }}" step="0.01" required><br>
+
+        <label>Description:</label>
+        <input type="text" name="GD" value="{{ recipient.description }}" required><br>
+
+        <label>Gift Rating:</label>
+        <input type="number" name="GR" value="{{ recipient.gift_rating }}" step="0.1" required><br>
+
+       <div class="button-container">
+    <button type="submit">Update</button>
+    <button><a href="{% url 'recipient_list' %}">Back</a></button>
+</div>
     </form>
+
+</div>
+<footer class="footer">
+        <p>&copy; Buddharaju Sirisha | Finding the perfect gift made easy.</p>
+    </footer>
+
 </body>
 </html>

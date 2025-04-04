@@ -11,6 +11,8 @@
             background-color: #f8e8ee; /* Complementary to medium pink */
         }
 
+
+
         .navbar {
             display: flex;
             justify-content: space-between;
@@ -24,11 +26,7 @@
             z-index: 1000;
         }
 
-        .menu-toggle {
-            font-size: 24px;
-            cursor: pointer;
-            transform: scaleX(-1); /* Half-reversed effect */
-        }
+
 
         .nav-links {
             display: flex;
@@ -170,7 +168,7 @@
             }
 
             .nav-links.active {
-                display: flex;
+                display: flex !important;
             }
 
             .footer-container {
@@ -184,10 +182,13 @@
     <nav class="navbar">
         <div class="menu-toggle" onclick="toggleMenu()">|||||</div>
         <div class="nav-links">
+
             <a href="{% url 'home' %}">Home</a>
             <a href="{% url 'filter' %}">Filters</a>
             <a href="{% url 'about' %}">About Us</a>
-            <a href="{% url 'contact' %}">Contact Us</a>
+            <a href="{%url 'contact_view'%}">Contact Us</a>
+            <a href="{% url 'admin_login' %}">Add Data</a>
+             <a href="{% url 'user_logout' %}">Logout</a>
 
         </div>
     </nav>
@@ -199,8 +200,10 @@
         }
     </script>
 
+
+
     <div class="main">
-        <div class="header"><h1>Ultimate Gift Selector</h1></div>
+        <div class="header"><h1>Welcome, {{ user.username }} to Ultimate Gift Selector</h1></div>
         <div class="description">Discover the perfect gift for every occasion with personalized recommendations.
         Browse popular categories, trending gifts, and exclusive offers to find something special.</div>
         <div class="bts"><a href="{% url 'filter' %}">Recommend</a></div>
