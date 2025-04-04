@@ -499,3 +499,504 @@ Denver,33,Female,Partner,14,Male,"Books, Art, Tech",Baby Shower,High,Headphones,
 Houston,41,Female,Child,20,Male,"Books, Music, Sports",Christmas,Low,Headphones,Toys,Brand D,62.46,High-quality product,3.5
 Miami,39,Male,Sibling,45,Female,"Sports, Gaming, Tech",Festival,High,Headphones,Fashion,Brand D,131.2,Best seller,4.1
 Los Angeles,21,Male,partner,55,Female,"Cooking, Tech",Valentine's Day,Low,Perfume,Jewelry,Brand B,252.81,High-quality product,4.9
+New York,32,Female,Mother-in-law,21,Female,"Travel, Gaming",Birthday,Low,Book,Reading,Brand C,400.8,good for knowledge,5
+New York,45,Female,Mother-in-law,25,Male,"Travel, Gaming",Valentine's Day,High,Smartwatch,Electronics,Brand D,270.8,High-quality product,4.6
+New York,35,Female,Roommate,66,Other,"Sports, Tech, Fashion",Eid,High,Jewelry,Fashion,Brand D,381.01,Best seller,4
+Boston,32,Male,Sibling,79,Male,Gaming,Thanksgiving,Low,Perfume,Fashion,Brand B,45.78,Trending item,3
+Chicago,59,Other,Business Partner,41,Other,"Fashion, Fitness, Photography",Promotion,High,Teddy Bear,Books,Brand C,418.32,Perfect for all ages,3.3
+New York,45,Other,Mentor,22,Other,Gaming,Christmas,Medium,Smartwatch,Accessories,Brand D,93.78,Highly rated gift,3.2
+Boston,18,Female,Daughter,48,Female,"Fitness, Music",Wedding,High,Sneakers,Electronics,Brand A,292.3,Best seller,4.3
+Denver,59,Other,Grandmother,39,Male,"Art, Tech, Books",Halloween,Low,Perfume,Sports,Brand C,435.51,Trending item,3.6
+Chicago,31,Female,Friend,5,Other,"Books, Art",Christmas,High,Electronics,Accessories,Brand D,454.99,Perfect for all ages,4.6
+New York,63,Female,Grandson,52,Other,"Gaming, Photography",Graduation,High,Accessories,Jewelry,Brand D,137.9,Trending item,3.9
+Chicago,29,Female,Spouse,16,Other,"Gaming, Books, Tech",Wedding,High,Electronics,Sports,Brand E,314.6,High-quality product,4
+Chicago,58,Female,Brother-in-law,38,Male,Gaming,Diwali,High,Perfume,Electronics,Brand D,100.27,Highly rated gift,4.5
+Denver,39,Other,Mentor,14,Other,"Photography, Gaming",Halloween,Medium,Accessories,Accessories,Brand A,180.4,Perfect for all ages,4.2
+New York,29,Male,Grandfather,14,Male,"Art, Fitness",Anniversary,Medium,Toys,Fashion,Brand A,38.17,Best seller,4.3
+Denver,49,Female,Sibling,33,Male,"Fashion, Travel, Art",Retirement,Low,Teddy Bear,Fashion,Brand D,192.94,Best seller,3.8
+Seattle,31,Female,Sister,35,Female,Photography,Baby Shower,High,Sneakers,Toys,Brand C,300.77,Best seller,3.9
+Chicago,22,Female,Nephew,67,Female,"Gaming, Books",Easter,Medium,Accessories,Toys,Brand B,430.82,Highly rated gift,3.7
+Chicago,70,Female,Father-in-law,69,Female,"Sports, Tech",Raksha Bandhan,High,Jewelry,Books,Brand A,444.39,High-quality product,4.9
+New York,54,Other,Spouse,46,Female,"Art, Books",New Year,High,Teddy Bear,Fashion,Brand C,26.34,Best seller,3.7
+Los Angeles,35,Female,Professor,44,Female,"Sports, Books, Art",HouseWarming,Low,Teddy Bear,Accessories,Brand C,342.22,Trending item,5
+Seattle,63,Male,Cousin,79,Other,Gaming,Festival,Medium,Book,Fashion,Brand E,169.3,Perfect for all ages,3.6
+Houston,40,Female,Granddaughter,52,Other,Art,Promotion,Medium,Jewelry,Accessories,Brand B,66.09,Best seller,4
+San Francisco,51,Female,Wife,26,Female,"Gaming, Fashion, Music",Engagement,Low,Smartwatch,Books,Brand E,468.77,Perfect for all ages,3.9
+New York,38,Female,Parent,5,Female,Fashion,New Year,Low,Sneakers,Jewelry,Brand B,137.82,Perfect for all ages,4.8
+Boston,61,Male,Uncle,22,Other,"Sports, Photography, Fashion",Festival,Low,Accessories,Electronics,Brand B,130.79,Highly rated gift,3.4
+Chicago,34,Female,Professor,60,Female,Photography,HouseWarming,High,Sneakers,Books,Brand B,302.4,Best seller,4
+New York,29,Female,Fiancé,49,Male,"Art, Fitness, Fashion",New Year,Medium,Perfume,Accessories,Brand B,315.73,Trending item,4.5
+Boston,58,Male,Daughter,74,Other,"Music, Books, Sports",New Year,High,Accessories,Fashion,Brand B,452.35,Best seller,3.9
+Seattle,47,Other,Grandparent,63,Male,Tech,Farewell,High,Smartwatch,Toys,Brand C,24.36,Trending item,3.6
+Chicago,31,Male,Sister,19,Female,Fashion,Mother's Day,Medium,Toys,Jewelry,Brand E,278.46,High-quality product,3.3
+New York,54,Female,Aunty,7,Female,Music,Anniversary,Medium,Perfume,Toys,Brand A,270.87,Highly rated gift,4.1
+San Francisco,48,Male,Business Partner,25,Male,"Travel, Music",HouseWarming,Medium,Perfume,Accessories,Brand E,44.19,Highly rated gift,3.5
+Los Angeles,26,Other,Granddaughter,27,Other,Gaming,Graduation,High,Accessories,Books,Brand C,462.27,High-quality product,4.6
+Los Angeles,70,Male,Father-in-law,65,Other,"Photography, Tech, Travel",Friendship Day,Low,Sneakers,Books,Brand C,172.98,High-quality product,3
+New York,25,Other,Mother-in-law,18,Male,Music,Diwali,High,Teddy Bear,Fashion,Brand B,437.05,Highly rated gift,4.2
+Chicago,22,Male,Classmate,76,Other,"Books, Music",Farewell,Medium,Smartwatch,Fashion,Brand C,342.33,Perfect for all ages,4.3
+Houston,38,Female,Grandparent,37,Female,"Sports, Art, Photography",Christmas,Medium,Sneakers,Toys,Brand A,160.61,Best seller,3.9
+Denver,60,Female,Husband,25,Female,"Art, Fashion, Tech",Baby Shower,Medium,Smartwatch,Fashion,Brand A,393.97,Perfect for all ages,4.8
+Chicago,55,Other,Granddaughter,60,Male,"Music, Fitness, Photography",HouseWarming,Medium,Smartwatch,Electronics,Brand B,203.4,High-quality product,4.3
+Seattle,25,Male,Grandmother,10,Other,"Fashion, Books, Sports",Friendship Day,High,Accessories,Jewelry,Brand C,176.94,Perfect for all ages,4.1
+Los Angeles,50,Female,Granddaughter,28,Male,"Gaming, Fitness",Teacher's Day,Medium,Electronics,Jewelry,Brand A,27.87,Trending item,3
+Dallas,25,Female,Sister-in-law,60,Male,Books,Halloween,Medium,Electronics,Books,Brand A,202.65,Perfect for all ages,3.2
+Chicago,54,Male,Manager,80,Other,"Music, Gaming, Tech",HouseWarming,High,Smartwatch,Electronics,Brand B,376.58,Trending item,3.8
+New York,26,Female,Classmate,34,Other,"Gaming, Music",Baby Shower,Medium,Electronics,Toys,Brand A,294,Best seller,4.5
+Chicago,40,Male,Granddaughter,25,Male,"Photography, Books",Raksha Bandhan,Medium,Perfume,Books,Brand C,28.46,Highly rated gift,4.6
+San Francisco,23,Other,Team Leader,76,Female,"Travel, Photography",Wedding,Medium,Teddy Bear,Accessories,Brand A,25.47,Trending item,4.2
+Los Angeles,63,Male,Manager,73,Male,Art,Festival,High,Teddy Bear,Toys,Brand E,126.45,Perfect for all ages,4.9
+Dallas,32,Other,Colleague,61,Female,"Fitness, Sports",Festival,Low,Sneakers,Accessories,Brand C,59.59,Best seller,3.5
+Seattle,56,Male,Aunty,78,Male,Fitness,Farewell,High,Sneakers,Books,Brand B,339.02,Highly rated gift,3.2
+Dallas,22,Female,Boss,50,Female,Fitness,Wedding,High,Book,Books,Brand B,420.84,Highly rated gift,4.3
+New York,36,Other,Father-in-law,26,Male,"Fashion, Travel",Wedding,Low,Teddy Bear,Accessories,Brand E,209.01,Trending item,3.8
+Chicago,60,Other,Parent,11,Female,"Sports, Fitness, Fashion",Diwali,High,Perfume,Sports,Brand E,353.53,High-quality product,4.8
+Chicago,52,Female,Boss,31,Other,"Tech, Music",Baby Shower,High,Smartwatch,Toys,Brand E,213.16,Perfect for all ages,3.1
+Miami,45,Other,Mentor,13,Female,"Art, Gaming, Fitness",Graduation,High,Electronics,Accessories,Brand C,444.61,Best seller,4.3
+San Francisco,33,Female,Boss,21,Male,Travel,HouseWarming,Low,Book,Jewelry,Brand A,364.12,High-quality product,3
+Seattle,39,Other,Mother-in-law,63,Other,"Books, Sports",New Job,Medium,Jewelry,Books,Brand E,388.43,Best seller,3.8
+Chicago,19,Male,Fiancé,48,Male,"Tech, Art, Gaming",Farewell,High,Book,Toys,Brand C,35.61,High-quality product,4.4
+New York,28,Female,Close Friend,6,Male,"Fashion, Art, Books",Mother's Day,High,Perfume,Jewelry,Brand C,170.27,Perfect for all ages,4.8
+Seattle,23,Other,Father,17,Other,"Fitness, Photography",Thanksgiving,High,Smartwatch,Accessories,Brand B,334.51,High-quality product,4.7
+Denver,24,Other,Aunty,24,Other,Music,Christmas,High,Book,Toys,Brand E,355.96,Trending item,3.9
+Houston,57,Female,Son,14,Female,"Books, Fashion",Valentine's Day,High,Teddy Bear,Accessories,Brand D,398.58,Best seller,3.9
+Denver,53,Other,Team Leader,69,Other,Art,Baby Shower,Medium,Toys,Accessories,Brand B,353.25,High-quality product,4.3
+Denver,51,Other,Sister-in-law,29,Female,"Gaming, Fashion, Books",Graduation,High,Accessories,Electronics,Brand C,15.23,Trending item,3.1
+Denver,36,Male,Colleague,64,Other,"Books, Photography",Anniversary,Medium,Sneakers,Jewelry,Brand C,345.27,Trending item,4.4
+Chicago,29,Other,Aunty,75,Other,Tech,Anniversary,Low,Teddy Bear,Toys,Brand B,57.04,High-quality product,4.1
+New York,46,Female,Team Leader,35,Female,"Travel, Music",Baby Shower,High,Perfume,Accessories,Brand E,198.24,Trending item,3.8
+Seattle,43,Female,Team Leader,5,Other,"Fitness, Books",New Year,Low,Perfume,Fashion,Brand A,423.31,Highly rated gift,4.3
+Los Angeles,33,Other,Fiancé,19,Male,"Music, Art, Photography",Birthday,High,Jewelry,Accessories,Brand B,109.64,High-quality product,3.8
+Denver,37,Female,Aunty,68,Male,Fashion,Farewell,High,Sneakers,Sports,Brand A,412.01,Highly rated gift,4.6
+Boston,44,Other,Sibling,17,Female,"Photography, Fitness, Music",Thanksgiving,High,Book,Jewelry,Brand C,449.46,Trending item,4.3
+Houston,43,Male,Brother-in-law,51,Other,"Gaming, Art, Fashion",Promotion,Medium,Book,Accessories,Brand A,205.51,Best seller,4.9
+Chicago,65,Male,Sibling,73,Female,Photography,Wedding,High,Toys,Sports,Brand A,348.5,Trending item,4.3
+Denver,62,Male,Spouse,43,Other,"Fashion, Fitness, Photography",Mother's Day,High,Toys,Sports,Brand B,44.67,Best seller,3.8
+Miami,56,Other,Boyfriend,22,Female,"Travel, Fitness",Halloween,Low,Toys,Accessories,Brand C,149.91,Best seller,3
+Los Angeles,30,Other,Daughter,52,Other,"Music, Fitness, Tech",Engagement,Low,Book,Sports,Brand B,397.21,Perfect for all ages,3.4
+New York,66,Other,Mother-in-law,35,Female,"Sports, Music",Anniversary,Low,Book,Toys,Brand E,304.72,Trending item,3.6
+Houston,30,Female,Sister,19,Other,"Art, Travel",Teacher's Day,Medium,Jewelry,Toys,Brand B,341.05,Trending item,3.6
+Boston,63,Male,Parent,57,Female,"Art, Sports, Books",Raksha Bandhan,High,Smartwatch,Accessories,Brand C,432.52,Highly rated gift,3.1
+Houston,21,Male,Father-in-law,12,Other,"Sports, Books, Gaming",Baby Shower,Low,Electronics,Sports,Brand A,12.38,Highly rated gift,3.6
+Dallas,25,Male,Fiancée,62,Other,"Books, Fashion, Fitness",Halloween,High,Smartwatch,Jewelry,Brand C,159.22,High-quality product,5
+Chicago,59,Female,Mother-in-law,63,Male,"Gaming, Tech",New Job,Low,Sneakers,Sports,Brand C,94.85,Highly rated gift,4.2
+Dallas,57,Female,Father,32,Male,"Fitness, Fashion",Festival,High,Sneakers,Jewelry,Brand C,460.83,Perfect for all ages,4.9
+New York,33,Male,Uncle,48,Male,"Travel, Fitness",New Job,Medium,Teddy Bear,Sports,Brand C,145.65,Highly rated gift,3.9
+Los Angeles,25,Other,Classmate,46,Female,"Music, Gaming, Photography",Wedding,High,Toys,Toys,Brand C,205.91,Highly rated gift,3.9
+Dallas,61,Male,Father,13,Female,Books,Graduation,Low,Electronics,Books,Brand C,73.18,Perfect for all ages,3.9
+Dallas,53,Female,Neighbor,61,Male,"Fitness, Gaming, Sports",Thanksgiving,Low,Accessories,Electronics,Brand A,101.12,Perfect for all ages,3.9
+Dallas,55,Female,Parent,66,Male,"Travel, Tech, Photography",Graduation,High,Accessories,Electronics,Brand A,218.82,Highly rated gift,4.9
+Houston,49,Other,Teacher,48,Female,"Fashion, Art",Thanksgiving,High,Accessories,Sports,Brand A,235.17,Highly rated gift,3.4
+San Francisco,31,Male,Fiancé,46,Female,"Books, Sports, Gaming",Graduation,Medium,Perfume,Electronics,Brand D,152.42,Perfect for all ages,3.6
+Chicago,18,Male,Manager,60,Male,"Music, Fashion",New Job,High,Jewelry,Books,Brand C,448.46,Best seller,4.7
+Chicago,44,Female,Niece,64,Male,"Photography, Travel",Diwali,Low,Book,Sports,Brand B,487.04,Perfect for all ages,4.6
+Boston,21,Male,Mentor,59,Other,"Sports, Books",Friendship Day,Medium,Sneakers,Books,Brand B,215.83,Best seller,3.1
+Seattle,48,Male,Child,73,Male,"Photography, Tech",Festival,High,Smartwatch,Electronics,Brand E,331.78,Best seller,4.8
+New York,37,Other,Partner,15,Other,Fashion,Retirement,Medium,Accessories,Fashion,Brand D,364.42,Perfect for all ages,5
+Dallas,42,Other,Granddaughter,17,Male,Photography,Halloween,High,Electronics,Toys,Brand D,322.41,Highly rated gift,3
+Dallas,62,Other,Son,6,Male,"Fashion, Tech",Thanksgiving,High,Teddy Bear,Jewelry,Brand B,160.11,Perfect for all ages,4.3
+Dallas,35,Female,Father-in-law,67,Male,Art,Anniversary,Low,Book,Sports,Brand B,200.43,Perfect for all ages,3.8
+Los Angeles,22,Female,Brother-in-law,77,Male,"Travel, Music",Eid,Medium,Sneakers,Fashion,Brand C,338.32,Highly rated gift,4.2
+Miami,37,Other,Father,51,Male,"Sports, Fashion",Teacher's Day,Low,Toys,Toys,Brand B,485.41,Highly rated gift,3.4
+Houston,64,Male,Childhood Friend,28,Other,"Photography, Music, Books",Mother's Day,High,Electronics,Fashion,Brand E,303.98,Highly rated gift,4
+Los Angeles,46,Male,Brother,55,Female,"Tech, Fashion",Thanksgiving,Low,Perfume,Jewelry,Brand C,348.34,Highly rated gift,4.7
+New York,28,Female,Professor,58,Male,"Travel, Gaming, Fashion",Promotion,Low,Jewelry,Jewelry,Brand A,170.02,High-quality product,4.7
+Denver,53,Female,Father,25,Other,"Photography, Sports",Christmas,Low,Sneakers,Accessories,Brand E,397.91,Perfect for all ages,4.9
+San Francisco,19,Female,Best Friend,30,Female,Photography,Teacher's Day,Medium,Perfume,Jewelry,Brand B,285.67,High-quality product,4
+Dallas,38,Female,Professor,65,Female,Photography,Teacher's Day,Medium,Accessories,Jewelry,Brand D,287.2,Best seller,4.8
+Houston,68,Male,Aunty,57,Other,Fashion,Teacher's Day,High,Accessories,Toys,Brand E,370.07,Trending item,4.6
+Houston,48,Male,Sibling,25,Male,Tech,Friendship Day,High,Smartwatch,Fashion,Brand A,479.74,Best seller,3.5
+Los Angeles,23,Female,Team Leader,45,Female,"Music, Photography",Raksha Bandhan,Medium,Book,Accessories,Brand E,401.36,Perfect for all ages,4
+New York,67,Other,Sister-in-law,80,Female,"Gaming, Tech, Photography",Anniversary,Low,Accessories,Jewelry,Brand C,431.2,High-quality product,3
+Boston,41,Female,Colleague,65,Other,Music,Friendship Day,Low,Accessories,Jewelry,Brand B,473.92,Trending item,5
+Houston,49,Male,Boss,7,Male,"Travel, Tech",Thanksgiving,Low,Perfume,Accessories,Brand A,338.43,Highly rated gift,3.1
+Los Angeles,25,Female,Mentor,19,Other,Tech,Wedding,Low,Smartwatch,Books,Brand B,89.5,High-quality product,4.2
+Dallas,70,Male,Sibling,8,Male,Tech,New Job,Low,Accessories,Electronics,Brand A,157.38,Highly rated gift,4.3
+Boston,39,Male,Best Friend,24,Female,Photography,Halloween,Low,Sneakers,Jewelry,Brand D,360.47,High-quality product,4.4
+Seattle,57,Other,Mentor,55,Female,"Photography, Sports",Valentine's Day,Medium,Toys,Sports,Brand E,496.61,Trending item,4.7
+Boston,30,Male,Uncle,78,Female,Gaming,Easter,High,Perfume,Electronics,Brand B,390.63,High-quality product,3.7
+Boston,37,Male,Close Friend,36,Female,Art,Promotion,High,Toys,Electronics,Brand B,212.3,High-quality product,4.3
+Denver,51,Female,Cousin,53,Female,"Travel, Sports",HouseWarming,High,Perfume,Electronics,Brand A,37.82,Best seller,4.2
+Denver,38,Female,Employee,36,Male,Tech,HouseWarming,High,Toys,Sports,Brand D,154.28,Best seller,4.2
+Los Angeles,70,Male,Child,6,Male,"Art, Photography",Farewell,Medium,Jewelry,Sports,Brand B,446.89,Perfect for all ages,4.6
+Los Angeles,56,Female,Childhood Friend,11,Male,Fashion,Eid,Medium,Jewelry,Toys,Brand D,61.94,Perfect for all ages,4.4
+Denver,63,Other,Best Friend,41,Other,"Fashion, Travel, Fitness",Raksha Bandhan,High,Sneakers,Toys,Brand C,343.46,Highly rated gift,4.3
+Los Angeles,55,Male,Husband,11,Female,"Fashion, Art",Valentine's Day,Medium,Electronics,Electronics,Brand A,116.45,Highly rated gift,4.4
+San Francisco,29,Female,Spouse,46,Female,"Music, Fitness",Baby Shower,Medium,Toys,Jewelry,Brand E,120.43,Trending item,4.8
+Denver,30,Male,Daughter,51,Female,"Photography, Art, Fitness",Mother's Day,Medium,Sneakers,Fashion,Brand E,487.36,Best seller,4.2
+Boston,30,Male,Team Leader,36,Male,Travel,Retirement,Low,Jewelry,Sports,Brand B,113.81,Perfect for all ages,5
+San Francisco,61,Male,Sister-in-law,45,Female,"Books, Art, Sports",Valentine's Day,Low,Book,Sports,Brand D,403.24,High-quality product,3.6
+Houston,49,Other,Grandparent,22,Female,"Photography, Music, Fitness",Retirement,Low,Sneakers,Accessories,Brand B,124.92,Highly rated gift,3.8
+Denver,62,Other,Nephew,10,Other,Photography,Raksha Bandhan,High,Sneakers,Accessories,Brand B,493.16,Best seller,4.7
+Seattle,41,Female,Grandmother,57,Other,Gaming,Raksha Bandhan,High,Accessories,Accessories,Brand A,82.05,High-quality product,4
+New York,26,Other,Granddaughter,76,Male,"Art, Gaming",Friendship Day,Medium,Electronics,Accessories,Brand A,337.37,High-quality product,4
+Boston,38,Female,Brother,34,Other,"Books, Art, Photography",Baby Shower,Low,Jewelry,Electronics,Brand B,105.94,Highly rated gift,3.9
+Chicago,35,Other,Fiancée,56,Other,Gaming,Promotion,High,Accessories,Jewelry,Brand D,359.98,High-quality product,4.3
+New York,22,Male,Spouse,28,Male,"Travel, Fitness, Gaming",Retirement,High,Teddy Bear,Toys,Brand E,205.97,Highly rated gift,4.8
+Houston,39,Male,Husband,50,Male,"Fashion, Books",Promotion,Low,Sneakers,Accessories,Brand E,417.62,Trending item,4.4
+Los Angeles,19,Female,Child,26,Female,"Travel, Art, Gaming",HouseWarming,Low,Electronics,Sports,Brand B,377.56,Trending item,4.5
+Denver,18,Male,Aunty,50,Male,"Photography, Fitness",Promotion,Low,Electronics,Toys,Brand B,206.12,High-quality product,3.8
+Miami,39,Male,Employee,72,Male,"Travel, Gaming",Easter,Low,Book,Electronics,Brand B,348.05,High-quality product,3.1
+Boston,54,Male,Roommate,43,Other,"Photography, Fitness",New Year,Medium,Sneakers,Toys,Brand E,360.27,Best seller,3.6
+Chicago,40,Other,Aunty,30,Other,"Music, Photography, Art",Birthday,Low,Sneakers,Jewelry,Brand E,236.85,Trending item,4.8
+Houston,65,Female,Nephew,20,Male,"Books, Music",Diwali,Low,Sneakers,Toys,Brand B,91.03,Best seller,3.2
+New York,61,Other,Parent,31,Female,"Photography, Tech",Mother's Day,Low,Accessories,Jewelry,Brand E,19.74,Best seller,4.7
+Chicago,21,Female,Childhood Friend,69,Male,"Photography, Travel",Baby Shower,Low,Sneakers,Sports,Brand C,260.39,High-quality product,3.2
+Denver,18,Female,Student,27,Male,Travel,Birthday,High,Jewelry,Jewelry,Brand D,442.82,Perfect for all ages,4.6
+Miami,56,Other,Partner,48,Female,"Fitness, Music, Photography",Friendship Day,Low,Jewelry,Fashion,Brand B,450.38,Trending item,4.8
+Dallas,35,Other,Mentor,53,Other,Fitness,Raksha Bandhan,Low,Smartwatch,Electronics,Brand C,28.62,Trending item,5
+Dallas,65,Female,Spouse,51,Other,"Fitness, Music",Eid,Low,Toys,Books,Brand A,33.58,Highly rated gift,4.2
+Houston,61,Male,Mentor,36,Other,"Books, Music, Tech",Engagement,Low,Jewelry,Sports,Brand D,252.82,Trending item,3.6
+Boston,31,Female,Aunty,45,Female,Art,Engagement,Medium,Perfume,Toys,Brand E,267.88,Perfect for all ages,3.6
+Houston,62,Other,Partner,74,Other,Sports,Halloween,High,Electronics,Sports,Brand D,234.37,Perfect for all ages,4.4
+Denver,52,Male,Best Friend,74,Female,"Gaming, Sports",Graduation,Medium,Teddy Bear,Jewelry,Brand C,476.96,High-quality product,4.3
+New York,26,Other,Girlfriend,61,Female,"Travel, Art",Promotion,High,Jewelry,Electronics,Brand A,127.32,Trending item,4.1
+Denver,39,Other,Wife,38,Female,"Fitness, Sports",New Job,Low,Book,Jewelry,Brand B,393.76,Best seller,4.6
+Los Angeles,37,Female,Father-in-law,50,Male,"Photography, Tech",Engagement,High,Electronics,Toys,Brand B,35.29,High-quality product,3.7
+Seattle,42,Female,Grandmother,32,Male,"Photography, Gaming",Engagement,High,Electronics,Books,Brand E,389.23,Highly rated gift,3.5
+Miami,52,Other,Wife,49,Other,"Music, Travel",HouseWarming,Medium,Teddy Bear,Jewelry,Brand E,285.34,Best seller,3.9
+Los Angeles,23,Female,Parent,40,Male,"Fashion, Music, Sports",Birthday,Low,Accessories,Jewelry,Brand C,225.1,Trending item,4.5
+Chicago,44,Male,Close Friend,79,Male,Tech,Farewell,Medium,Jewelry,Books,Brand A,250.41,High-quality product,3.2
+Dallas,69,Female,Sister-in-law,25,Male,"Books, Fitness",Festival,High,Jewelry,Books,Brand A,78.8,Trending item,4.9
+Denver,67,Other,Brother,14,Other,Photography,Teacher's Day,Low,Toys,Electronics,Brand B,149.29,High-quality product,3.1
+Los Angeles,45,Male,Colleague,55,Other,"Tech, Books, Art",Eid,Low,Teddy Bear,Accessories,Brand D,389.11,Trending item,3.9
+Denver,69,Male,Mentor,63,Female,"Art, Gaming, Photography",Festival,Medium,Electronics,Accessories,Brand A,360.64,Trending item,4.8
+Seattle,65,Male,Boss,68,Other,Art,Graduation,Low,Teddy Bear,Jewelry,Brand E,420.95,Perfect for all ages,4.4
+Boston,25,Female,Friend,34,Female,"Travel, Fitness",Diwali,High,Electronics,Sports,Brand B,322.71,Best seller,3.2
+Denver,24,Other,Neighbor,80,Other,"Fitness, Gaming",Teacher's Day,Medium,Book,Accessories,Brand A,105.53,Highly rated gift,4.4
+Boston,37,Male,Fiancée,69,Male,"Travel, Fashion",Anniversary,Medium,Teddy Bear,Fashion,Brand C,442.8,Trending item,3.4
+Denver,67,Female,Professor,69,Female,"Fashion, Gaming, Fitness",Retirement,High,Smartwatch,Fashion,Brand B,355.64,Perfect for all ages,4.8
+Seattle,34,Other,Aunty,21,Other,Fashion,Halloween,Low,Teddy Bear,Books,Brand D,140.18,High-quality product,4.9
+Seattle,37,Female,Son,32,Male,"Sports, Photography, Tech",Diwali,High,Smartwatch,Electronics,Brand A,322.94,Perfect for all ages,4.6
+Boston,18,Female,Sibling,53,Male,"Sports, Tech",New Year,High,Jewelry,Toys,Brand D,138.97,Highly rated gift,3.2
+San Francisco,52,Female,Student,8,Male,"Sports, Books",Christmas,High,Electronics,Books,Brand C,181.45,Best seller,3.4
+Los Angeles,55,Other,Team Leader,31,Other,Sports,Teacher's Day,High,Smartwatch,Electronics,Brand E,139.66,High-quality product,3.3
+Denver,60,Other,Friend,29,Other,"Art, Music, Fashion",Graduation,High,Perfume,Fashion,Brand C,199.55,Trending item,4.1
+New York,51,Other,Mother,26,Other,Photography,Easter,High,Perfume,Toys,Brand B,268.05,Trending item,4.6
+Denver,20,Other,Grandson,16,Male,"Fitness, Tech",New Job,Medium,Jewelry,Toys,Brand E,323.92,High-quality product,5
+Chicago,57,Other,Sibling,10,Male,"Travel, Sports",Raksha Bandhan,Low,Book,Jewelry,Brand E,448.81,Best seller,3.2
+Los Angeles,41,Other,Boss,38,Other,"Books, Tech",HouseWarming,Medium,Sneakers,Toys,Brand C,419.18,High-quality product,3.6
+Houston,44,Female,Sister,37,Male,"Sports, Music",Diwali,Low,Electronics,Electronics,Brand B,229.44,Highly rated gift,3.8
+Miami,35,Male,Fiancée,7,Other,Fitness,Festival,Medium,Electronics,Sports,Brand A,50.18,Highly rated gift,3.2
+Seattle,43,Male,Son,77,Male,"Books, Music, Fashion",Father's Day,High,Jewelry,Accessories,Brand C,31.57,Trending item,4.7
+Miami,57,Male,Mother-in-law,77,Other,"Art, Music",Mother's Day,Medium,Toys,Electronics,Brand C,417.93,Perfect for all ages,3.6
+Chicago,63,Female,Niece,64,Female,"Art, Sports",Baby Shower,High,Teddy Bear,Books,Brand C,44.65,Highly rated gift,4.1
+New York,43,Male,Client,79,Male,Music,New Job,High,Electronics,Fashion,Brand D,438.57,Best seller,3.1
+New York,55,Female,Grandfather,15,Female,"Fitness, Travel",Baby Shower,High,Electronics,Accessories,Brand D,222.64,Highly rated gift,4.5
+Denver,44,Male,Classmate,31,Other,"Gaming, Tech",Baby Shower,Low,Book,Toys,Brand B,96.03,Trending item,4.2
+Los Angeles,51,Male,Son,29,Male,"Gaming, Music",Easter,High,Jewelry,Sports,Brand A,465.65,Trending item,4.3
+San Francisco,42,Male,Fiancée,10,Male,"Books, Photography",Easter,High,Smartwatch,Fashion,Brand C,357.1,Perfect for all ages,4.1
+Chicago,30,Other,Father,48,Other,"Tech, Books, Art",Eid,Medium,Sneakers,Sports,Brand D,358.77,Highly rated gift,4.9
+New York,53,Male,Fiancée,45,Female,"Tech, Fashion",HouseWarming,Low,Accessories,Accessories,Brand C,309.71,Highly rated gift,3.1
+Denver,38,Female,Grandparent,20,Male,"Art, Tech",Anniversary,Low,Electronics,Accessories,Brand C,301.56,Best seller,3.1
+Denver,38,Male,Partner,11,Other,"Fitness, Fashion, Sports",Baby Shower,High,Jewelry,Fashion,Brand B,109.44,Best seller,4.6
+Denver,50,Female,Friend,73,Female,"Music, Sports, Travel",New Year,Medium,Teddy Bear,Sports,Brand A,373.33,Trending item,4.8
+New York,25,Female,Manager,53,Other,Fitness,Thanksgiving,Low,Electronics,Jewelry,Brand B,117.49,Highly rated gift,4.7
+Miami,22,Male,Grandmother,44,Male,"Music, Art, Gaming",Halloween,High,Toys,Jewelry,Brand B,12.56,High-quality product,3.2
+Miami,21,Female,Mother,41,Other,Photography,Festival,Medium,Teddy Bear,Toys,Brand E,393.4,Highly rated gift,4
+Boston,40,Female,Client,46,Other,Tech,Wedding,Medium,Sneakers,Toys,Brand B,204.68,Trending item,3.8
+Chicago,39,Male,Brother-in-law,78,Other,Photography,Valentine's Day,Medium,Toys,Fashion,Brand B,354.83,High-quality product,4.8
+Denver,64,Male,Employee,60,Other,"Tech, Music, Travel",Farewell,High,Sneakers,Toys,Brand D,140.84,Highly rated gift,4
+New York,49,Other,Child,34,Male,"Fitness, Music",Promotion,Low,Book,Toys,Brand B,180.42,High-quality product,3.4
+Miami,65,Other,Roommate,60,Male,"Sports, Photography, Fitness",Engagement,High,Perfume,Books,Brand E,242.7,High-quality product,3.8
+San Francisco,47,Female,Boss,15,Male,Sports,Anniversary,Medium,Teddy Bear,Electronics,Brand D,95.29,Trending item,3.1
+San Francisco,49,Male,Classmate,46,Other,Travel,HouseWarming,Medium,Toys,Books,Brand A,182.08,High-quality product,4.9
+Los Angeles,38,Male,Grandfather,35,Male,"Sports, Travel",HouseWarming,High,Book,Sports,Brand A,284.82,Best seller,3.8
+Miami,32,Male,Spouse,64,Male,"Fashion, Photography",Diwali,High,Smartwatch,Sports,Brand C,107.7,Highly rated gift,3.1
+New York,22,Other,Mother,62,Female,"Music, Travel, Sports",Valentine's Day,Low,Jewelry,Electronics,Brand A,194.95,Highly rated gift,3
+Los Angeles,59,Female,Cousin,47,Male,"Fashion, Photography",Raksha Bandhan,Low,Perfume,Electronics,Brand D,460.01,High-quality product,4.9
+Miami,24,Female,Mother,55,Male,"Music, Fitness, Art",Valentine's Day,Low,Perfume,Electronics,Brand E,429.93,Highly rated gift,3.2
+San Francisco,48,Other,Niece,38,Male,"Books, Tech, Photography",Retirement,Medium,Jewelry,Accessories,Brand A,99.45,Best seller,4.2
+Boston,45,Other,Grandmother,46,Female,Tech,HouseWarming,Low,Teddy Bear,Jewelry,Brand E,319.45,High-quality product,3.8
+San Francisco,31,Female,Daughter,72,Male,Travel,Eid,High,Electronics,Toys,Brand E,283.49,Highly rated gift,3
+Denver,48,Male,Best Friend,65,Other,"Books, Gaming",New Job,High,Accessories,Accessories,Brand B,315.02,Highly rated gift,3.5
+Dallas,46,Female,Daughter,64,Female,Fashion,Easter,High,Perfume,Toys,Brand B,294.25,Highly rated gift,3.1
+Dallas,25,Other,Team Leader,21,Male,"Books, Travel",New Year,Low,Teddy Bear,Toys,Brand C,444.57,Perfect for all ages,3
+Seattle,44,Female,Nephew,41,Female,"Music, Photography, Travel",Wedding,High,Sneakers,Accessories,Brand E,43.43,High-quality product,4.3
+Chicago,48,Other,Child,42,Female,"Sports, Travel, Books",HouseWarming,Low,Accessories,Books,Brand B,127.85,Trending item,3.7
+Denver,41,Female,Aunty,49,Female,"Travel, Tech",Valentine's Day,High,Sneakers,Electronics,Brand E,289.52,High-quality product,4.7
+Denver,41,Female,Father,17,Male,"Music, Fashion, Gaming",Anniversary,Medium,Book,Toys,Brand A,178.12,Trending item,4.6
+San Francisco,45,Other,Father,57,Female,"Books, Tech",Promotion,High,Perfume,Accessories,Brand A,369.56,Perfect for all ages,4.1
+Boston,55,Other,Friend,53,Female,"Music, Tech, Sports",Valentine's Day,Low,Accessories,Jewelry,Brand D,230.27,High-quality product,3.6
+San Francisco,45,Other,Colleague,11,Female,Art,Raksha Bandhan,High,Book,Electronics,Brand E,421.36,High-quality product,4.8
+Miami,60,Female,Roommate,48,Female,"Gaming, Tech",Father's Day,High,Perfume,Jewelry,Brand D,48.6,Highly rated gift,4.7
+Miami,33,Female,Boss,45,Other,"Travel, Fashion",Festival,Medium,Teddy Bear,Accessories,Brand B,342.08,High-quality product,3.8
+Dallas,21,Female,Mother-in-law,55,Male,"Art, Travel, Sports",Retirement,High,Jewelry,Accessories,Brand C,200.51,Best seller,3.9
+San Francisco,57,Male,Mentor,13,Male,"Sports, Fitness, Tech",Mother's Day,Medium,Accessories,Electronics,Brand C,463.28,Best seller,3.8
+Chicago,19,Male,Uncle,16,Other,"Books, Travel",Diwali,High,Sneakers,Sports,Brand C,226.62,Trending item,4.6
+Houston,18,Male,Parent,45,Other,Photography,Friendship Day,High,Sneakers,Toys,Brand D,413.5,Best seller,3.2
+Chicago,70,Female,Boyfriend,28,Female,Fashion,Wedding,Medium,Sneakers,Toys,Brand A,329.33,Highly rated gift,3.7
+San Francisco,59,Other,Employee,64,Female,"Travel, Music, Sports",Farewell,Low,Sneakers,Sports,Brand A,485.82,Trending item,3.9
+Los Angeles,51,Other,Friend,31,Female,"Travel, Music",New Year,Low,Teddy Bear,Electronics,Brand E,496.13,Highly rated gift,4.5
+Denver,51,Female,Student,78,Other,"Gaming, Sports, Fashion",Birthday,Low,Sneakers,Fashion,Brand D,57.08,Perfect for all ages,4.1
+Chicago,39,Other,Client,16,Female,Music,Promotion,Low,Jewelry,Electronics,Brand C,465.35,Perfect for all ages,3.7
+Miami,39,Female,Father,21,Male,"Art, Books, Sports",Engagement,Low,Perfume,Fashion,Brand B,15.69,Highly rated gift,3.2
+Houston,52,Male,Father-in-law,58,Other,"Tech, Fitness",Thanksgiving,Low,Smartwatch,Accessories,Brand D,463.31,Best seller,4.4
+San Francisco,49,Male,Grandmother,40,Male,"Tech, Books, Music",Farewell,Low,Book,Jewelry,Brand B,295.46,High-quality product,4.4
+Denver,40,Male,Brother,59,Other,"Sports, Fitness, Photography",Eid,Low,Jewelry,Jewelry,Brand D,220.63,High-quality product,3.2
+Dallas,58,Male,Cousin,78,Other,"Tech, Gaming",HouseWarming,Medium,Toys,Fashion,Brand A,147.26,Trending item,3.9
+Chicago,34,Female,Aunty,19,Other,"Books, Tech, Travel",Christmas,Low,Book,Electronics,Brand D,486.67,Trending item,4.7
+San Francisco,47,Male,Parent,80,Female,"Sports, Travel, Books",Diwali,Low,Accessories,Fashion,Brand D,467.98,Trending item,4.2
+Chicago,68,Other,Close Friend,30,Other,"Sports, Fashion, Fitness",Christmas,Medium,Jewelry,Accessories,Brand E,423.77,Best seller,3.6
+Boston,46,Female,Boyfriend,44,Other,Sports,Raksha Bandhan,Low,Sneakers,Accessories,Brand B,459.34,Trending item,4.1
+Seattle,22,Male,Nephew,29,Female,"Books, Fashion, Music",Wedding,High,Perfume,Accessories,Brand B,118.61,High-quality product,4
+Miami,47,Male,Granddaughter,33,Female,"Books, Photography, Fitness",Graduation,Medium,Accessories,Jewelry,Brand D,49.85,High-quality product,4.3
+Miami,37,Male,Boss,15,Other,Music,Halloween,Medium,Electronics,Fashion,Brand D,103.32,High-quality product,4.6
+New York,49,Other,Mother-in-law,70,Female,Sports,Wedding,Low,Perfume,Toys,Brand D,31.75,Best seller,3.7
+Denver,30,Other,Teacher,55,Male,"Gaming, Travel, Books",Graduation,Low,Jewelry,Fashion,Brand D,196.23,Highly rated gift,4.3
+Boston,39,Other,Fiancée,58,Other,"Sports, Fitness, Gaming",New Year,Medium,Sneakers,Books,Brand E,124.09,Highly rated gift,4.5
+Seattle,61,Other,Childhood Friend,70,Male,Fitness,Graduation,Medium,Toys,Sports,Brand B,455,Best seller,3.4
+New York,29,Other,Teacher,10,Other,"Fitness, Art",Engagement,Medium,Teddy Bear,Accessories,Brand C,454.27,Highly rated gift,3.6
+Seattle,60,Female,Uncle,33,Other,Fitness,New Job,Low,Sneakers,Books,Brand A,18.99,Trending item,4
+Houston,65,Male,Team Leader,31,Male,"Photography, Sports",New Job,Medium,Book,Toys,Brand C,274.23,Trending item,3.2
+Miami,25,Female,Brother,49,Male,Music,Festival,Medium,Sneakers,Accessories,Brand A,354.76,Best seller,3.6
+Chicago,54,Other,Boss,45,Male,"Tech, Art",Raksha Bandhan,Medium,Jewelry,Accessories,Brand E,289.91,Perfect for all ages,3.6
+New York,28,Male,Niece,60,Male,"Art, Travel",New Year,Low,Perfume,Books,Brand D,161.51,Trending item,3.4
+New York,36,Other,Grandfather,29,Other,"Fashion, Travel",Thanksgiving,Medium,Book,Fashion,Brand B,128.83,Best seller,4
+Dallas,21,Female,Brother,25,Male,"Art, Music, Travel",Graduation,High,Jewelry,Toys,Brand D,131.69,Trending item,3.5
+San Francisco,65,Other,Teacher,40,Female,"Photography, Sports",Halloween,High,Smartwatch,Accessories,Brand B,92.59,Perfect for all ages,4.4
+New York,48,Other,Grandmother,8,Other,"Fitness, Travel",Easter,Low,Smartwatch,Sports,Brand C,391.68,High-quality product,5
+San Francisco,45,Other,Cousin,56,Male,"Fashion, Fitness",HouseWarming,Medium,Toys,Jewelry,Brand C,469.46,Perfect for all ages,4.1
+New York,18,Female,Manager,25,Other,"Sports, Art",Birthday,Medium,Book,Jewelry,Brand A,45.81,Highly rated gift,4.9
+Chicago,69,Female,Aunty,24,Male,"Sports, Books, Fitness",Graduation,High,Teddy Bear,Electronics,Brand C,283.26,Best seller,3.3
+Boston,69,Female,Roommate,24,Male,"Fashion, Gaming, Sports",Festival,Low,Perfume,Accessories,Brand D,159.3,Highly rated gift,3.9
+Houston,31,Male,Son,61,Other,Gaming,Retirement,Low,Book,Electronics,Brand B,360.83,Best seller,4.8
+Boston,57,Male,Grandmother,27,Other,"Fashion, Gaming, Tech",Retirement,High,Jewelry,Sports,Brand C,236.49,Trending item,4.9
+New York,53,Female,Childhood Friend,27,Male,Music,Engagement,Low,Electronics,Fashion,Brand E,365.48,Best seller,3.9
+Denver,23,Male,Sister,38,Female,"Photography, Music, Travel",Eid,Medium,Teddy Bear,Toys,Brand C,82.57,High-quality product,3.4
+Dallas,67,Female,Client,63,Male,Travel,Farewell,High,Perfume,Electronics,Brand A,414.29,High-quality product,3.2
+Chicago,50,Male,Son,33,Male,"Fitness, Music, Photography",Engagement,High,Book,Fashion,Brand B,197.91,Trending item,4.7
+Denver,55,Male,Professor,29,Male,"Fitness, Travel",Promotion,Low,Book,Books,Brand B,348.09,Trending item,3.1
+Boston,61,Other,Teacher,29,Other,"Music, Sports",Father's Day,Medium,Perfume,Sports,Brand D,22.6,Highly rated gift,4.2
+Seattle,31,Male,Mentor,45,Male,"Fitness, Tech, Gaming",Graduation,Low,Perfume,Jewelry,Brand B,400.16,Trending item,4.7
+Dallas,28,Male,Wife,61,Other,"Music, Fitness, Tech",Father's Day,High,Jewelry,Books,Brand C,196.09,Highly rated gift,3
+Miami,26,Other,Niece,75,Female,"Books, Music, Fashion",Mother's Day,Low,Electronics,Books,Brand C,143.73,Perfect for all ages,4.6
+Seattle,30,Male,Best Friend,46,Female,"Music, Art",Retirement,Medium,Sneakers,Jewelry,Brand E,76.7,Trending item,4.7
+New York,23,Female,Granddaughter,46,Male,"Fashion, Music",New Job,Low,Sneakers,Sports,Brand A,251.34,Trending item,4.7
+Seattle,50,Male,Girlfriend,75,Other,"Photography, Sports, Art",Friendship Day,Medium,Smartwatch,Books,Brand B,30.8,Perfect for all ages,4.7
+Seattle,26,Female,Partner,72,Other,"Art, Music",New Year,Low,Jewelry,Fashion,Brand D,192.24,Trending item,4
+Seattle,27,Other,Mother,24,Male,"Fashion, Art",Halloween,High,Toys,Accessories,Brand E,230.47,Best seller,4.8
+Seattle,37,Female,Sister,21,Female,Fashion,Graduation,Medium,Electronics,Accessories,Brand D,318.84,Highly rated gift,4.1
+Seattle,58,Male,Mentor,9,Female,Fashion,Easter,High,Book,Sports,Brand B,170.94,Best seller,3.2
+Boston,41,Female,Son,66,Female,"Fitness, Sports, Photography",Engagement,Medium,Perfume,Books,Brand D,196.71,Best seller,3.7
+Miami,31,Other,Grandmother,72,Female,"Art, Tech, Travel",Engagement,Low,Jewelry,Fashion,Brand D,311.34,Highly rated gift,3.4
+Dallas,24,Female,Sister,20,Other,"Fashion, Fitness",Teacher's Day,High,Electronics,Electronics,Brand B,19.97,Perfect for all ages,4.7
+Chicago,26,Female,Girlfriend,43,Male,"Books, Gaming, Music",Festival,Medium,Toys,Books,Brand A,224,Highly rated gift,4.5
+San Francisco,27,Male,Business Partner,73,Male,Fashion,Teacher's Day,High,Toys,Sports,Brand B,484.91,Highly rated gift,3.4
+Houston,28,Female,Grandparent,11,Female,"Art, Fitness, Music",HouseWarming,Low,Smartwatch,Sports,Brand B,326.86,Perfect for all ages,4.9
+Dallas,20,Other,Mother,46,Other,"Gaming, Photography, Music",Festival,Low,Accessories,Accessories,Brand A,160.64,Trending item,3.6
+San Francisco,43,Other,Colleague,40,Male,"Travel, Photography, Books",Festival,High,Accessories,Jewelry,Brand B,370.3,Trending item,3.4
+Miami,43,Female,Mentor,14,Other,"Fitness, Tech",Baby Shower,Medium,Sneakers,Books,Brand D,84.73,Perfect for all ages,4.9
+Dallas,37,Other,Team Leader,62,Other,"Books, Art",Easter,Low,Toys,Sports,Brand C,248.15,Trending item,5
+Seattle,36,Male,Sister,70,Other,Tech,Friendship Day,High,Jewelry,Electronics,Brand C,70.28,Perfect for all ages,3.7
+Miami,28,Male,Roommate,53,Other,Art,Friendship Day,Low,Toys,Books,Brand C,183.07,Best seller,3.1
+Seattle,43,Female,Student,8,Male,"Gaming, Books",Christmas,Low,Teddy Bear,Books,Brand D,291.81,Perfect for all ages,4.3
+Seattle,63,Other,Daughter,20,Male,"Music, Fitness, Tech",Birthday,High,Teddy Bear,Jewelry,Brand C,322.47,Perfect for all ages,3.2
+Houston,50,Male,Client,24,Other,Fashion,Wedding,Medium,Jewelry,Fashion,Brand C,416.33,Trending item,4.8
+Houston,61,Other,Brother,15,Other,"Photography, Music, Tech",Teacher's Day,Medium,Jewelry,Accessories,Brand A,250.68,Highly rated gift,4.4
+New York,22,Other,Neighbor,17,Other,Books,Halloween,High,Electronics,Accessories,Brand E,164.35,High-quality product,3.8
+Boston,23,Female,Grandfather,9,Male,"Fashion, Tech, Books",Anniversary,Medium,Smartwatch,Toys,Brand B,255.78,Highly rated gift,4
+New York,31,Other,Grandfather,79,Male,Art,Halloween,High,Book,Sports,Brand D,230.27,Highly rated gift,4
+Miami,59,Other,Sibling,15,Female,"Books, Fashion, Travel",Friendship Day,High,Perfume,Electronics,Brand E,198.43,Highly rated gift,4.5
+Miami,33,Female,Child,5,Male,"Sports, Gaming",Farewell,High,Sneakers,Toys,Brand B,419.19,Trending item,3.3
+Boston,56,Female,Granddaughter,49,Other,Books,Halloween,Medium,Jewelry,Electronics,Brand A,395.11,High-quality product,3.3
+New York,52,Female,Spouse,11,Male,"Fashion, Books, Travel",Father's Day,Low,Smartwatch,Jewelry,Brand E,31.55,Trending item,4.6
+Seattle,62,Male,Girlfriend,17,Male,Photography,Engagement,Medium,Perfume,Electronics,Brand C,497.48,Best seller,4.6
+Denver,48,Other,Teacher,62,Other,"Art, Fashion",Diwali,High,Perfume,Sports,Brand D,148.62,Highly rated gift,4.6
+Chicago,28,Male,Grandson,62,Other,"Tech, Music, Fashion",Retirement,High,Jewelry,Accessories,Brand D,469.52,Best seller,3.5
+Seattle,32,Other,Student,43,Female,"Music, Fashion",Festival,Medium,Accessories,Books,Brand D,81.84,Perfect for all ages,3.5
+Seattle,66,Male,Partner,21,Other,"Gaming, Travel",Diwali,Medium,Perfume,Jewelry,Brand B,211.81,High-quality product,3.9
+Boston,64,Other,Mother,15,Female,Music,Thanksgiving,Medium,Electronics,Sports,Brand C,406.84,Perfect for all ages,4.5
+Boston,66,Other,Teacher,17,Other,"Photography, Tech, Fitness",Halloween,Low,Smartwatch,Books,Brand C,482.66,Highly rated gift,3.4
+Miami,59,Male,Granddaughter,68,Other,Photography,Festival,Medium,Book,Jewelry,Brand E,233.67,High-quality product,3.5
+Miami,70,Other,Wife,53,Male,"Sports, Books",Thanksgiving,Low,Teddy Bear,Fashion,Brand E,313.61,Trending item,3.2
+Chicago,59,Male,Manager,20,Female,Fashion,Eid,High,Smartwatch,Toys,Brand B,123.84,Best seller,3.5
+Los Angeles,65,Female,Professor,53,Female,Books,Father's Day,Low,Book,Books,Brand E,449.85,Best seller,4.3
+Miami,37,Female,Grandson,78,Female,"Books, Travel",Friendship Day,High,Book,Sports,Brand E,119.24,Highly rated gift,4.3
+Boston,53,Female,Niece,78,Other,"Photography, Sports",Father's Day,Low,Jewelry,Sports,Brand B,289.75,Perfect for all ages,3.3
+New York,69,Female,Daughter,40,Female,"Sports, Tech, Books",New Job,Low,Electronics,Sports,Brand E,54.02,Highly rated gift,4.5
+Chicago,35,Female,Client,10,Other,"Sports, Tech",New Year,Low,Electronics,Books,Brand A,18.5,Trending item,3.8
+Chicago,57,Other,Partner,19,Male,Travel,HouseWarming,High,Perfume,Fashion,Brand E,144.87,Perfect for all ages,3.1
+San Francisco,58,Other,Mentor,59,Male,Books,Farewell,Medium,Toys,Accessories,Brand E,419.41,Trending item,3.4
+Los Angeles,27,Female,Neighbor,68,Female,Tech,New Job,Medium,Electronics,Accessories,Brand A,388.78,Perfect for all ages,3.9
+Houston,70,Male,Teacher,46,Female,"Art, Travel",Halloween,Medium,Teddy Bear,Accessories,Brand A,44.92,Highly rated gift,3.3
+Houston,37,Female,Brother,61,Female,"Fitness, Gaming, Fashion",Engagement,Low,Accessories,Books,Brand D,408.02,Highly rated gift,4.2
+Houston,58,Male,Fiancée,36,Other,Books,Mother's Day,Low,Book,Jewelry,Brand D,402.36,Perfect for all ages,4.1
+Boston,51,Male,Niece,50,Female,"Books, Fashion, Travel",Anniversary,High,Perfume,Sports,Brand B,119.75,Trending item,3.8
+Denver,31,Male,Aunty,72,Male,"Photography, Tech, Travel",Graduation,High,Perfume,Fashion,Brand C,391.95,Best seller,4.5
+Boston,51,Male,Aunty,6,Female,"Gaming, Travel, Sports",Promotion,Low,Electronics,Jewelry,Brand C,109.17,Perfect for all ages,3.4
+Miami,42,Other,Neighbor,37,Male,Sports,Eid,High,Book,Toys,Brand B,475.05,Perfect for all ages,3.6
+Houston,18,Male,Uncle,6,Female,"Photography, Tech, Fashion",Thanksgiving,Medium,Jewelry,Fashion,Brand C,218.39,Highly rated gift,3.8
+Seattle,56,Male,Son,59,Other,"Gaming, Photography",Teacher's Day,Low,Jewelry,Jewelry,Brand A,412.53,Highly rated gift,4.8
+Boston,21,Female,Employee,9,Other,Sports,Halloween,High,Smartwatch,Jewelry,Brand E,463.95,Best seller,4.6
+Miami,33,Male,Girlfriend,51,Female,"Travel, Gaming, Tech",New Year,Medium,Jewelry,Jewelry,Brand D,145.9,High-quality product,4.2
+Dallas,55,Male,Partner,13,Female,"Books, Art, Gaming",Wedding,High,Teddy Bear,Electronics,Brand C,443.86,Highly rated gift,4.2
+Houston,24,Female,Grandmother,42,Female,"Fashion, Photography",Christmas,Medium,Toys,Jewelry,Brand B,30.35,Trending item,4.3
+Houston,62,Other,Brother,57,Female,"Books, Fitness, Travel",Father's Day,Medium,Electronics,Toys,Brand D,104.12,Perfect for all ages,4.7
+Boston,60,Male,Uncle,58,Other,"Tech, Music",Wedding,Medium,Book,Sports,Brand A,394.75,Highly rated gift,3.1
+Dallas,30,Female,Mentor,53,Female,"Fashion, Gaming",Engagement,Low,Teddy Bear,Sports,Brand C,80.89,Perfect for all ages,3.4
+Los Angeles,45,Female,Client,15,Male,Books,Promotion,Medium,Smartwatch,Toys,Brand A,43.51,Highly rated gift,4.8
+Dallas,45,Female,Business Partner,38,Male,Gaming,Birthday,Medium,Book,Toys,Brand E,459.57,Best seller,4.2
+Seattle,41,Other,Teacher,70,Other,Books,Friendship Day,High,Teddy Bear,Sports,Brand D,465.91,High-quality product,4
+Boston,37,Other,Son,14,Other,"Tech, Photography, Art",Retirement,Low,Sneakers,Jewelry,Brand C,308.04,Highly rated gift,4.7
+Seattle,56,Female,Mother,43,Female,"Sports, Fashion, Books",Mother's Day,High,Book,Sports,Brand D,433.79,High-quality product,4.3
+New York,29,Other,Sister-in-law,65,Other,Sports,Birthday,Medium,Perfume,Sports,Brand A,117.79,Highly rated gift,4.2
+San Francisco,52,Male,Husband,6,Other,"Fashion, Sports",Eid,Medium,Sneakers,Books,Brand A,277.67,Perfect for all ages,4.5
+New York,21,Other,Mother-in-law,14,Other,"Music, Tech",Retirement,Low,Teddy Bear,Sports,Brand C,270.43,Highly rated gift,4.1
+Denver,23,Male,Colleague,44,Other,"Sports, Travel, Books",Father's Day,High,Electronics,Jewelry,Brand D,377.95,Best seller,3.9
+Chicago,30,Male,Colleague,19,Female,Sports,Father's Day,Medium,Accessories,Jewelry,Brand D,187.85,Trending item,3.6
+Los Angeles,61,Other,Best Friend,75,Male,"Travel, Sports",Retirement,Low,Electronics,Toys,Brand E,393.7,Best seller,3.7
+New York,55,Male,Cousin,11,Other,"Photography, Tech",Anniversary,High,Smartwatch,Sports,Brand A,88.7,Trending item,4.6
+Boston,19,Female,Colleague,9,Male,"Sports, Books, Photography",Raksha Bandhan,Low,Toys,Sports,Brand C,481.23,High-quality product,5
+San Francisco,54,Other,Father,45,Female,"Gaming, Books, Music",Father's Day,High,Toys,Books,Brand E,46.88,Perfect for all ages,4.4
+Houston,43,Male,Nephew,44,Other,"Gaming, Travel",New Job,Low,Jewelry,Electronics,Brand B,87.19,Trending item,4.4
+San Francisco,23,Male,Teacher,35,Male,Sports,Festival,Low,Book,Books,Brand D,391.46,Perfect for all ages,3.2
+Miami,34,Male,Brother,73,Other,Books,Farewell,Medium,Teddy Bear,Fashion,Brand C,129.57,Perfect for all ages,4.6
+Los Angeles,27,Other,Friend,55,Female,Art,Mother's Day,Medium,Book,Sports,Brand C,125.17,Best seller,4
+Denver,37,Other,Mother,79,Other,"Fitness, Art",Thanksgiving,Low,Perfume,Fashion,Brand E,422.41,Best seller,4.5
+San Francisco,23,Male,Team Leader,37,Male,"Fitness, Fashion, Photography",Birthday,Low,Electronics,Toys,Brand A,472.08,Highly rated gift,4.6
+Seattle,59,Other,Teacher,36,Female,Sports,Father's Day,High,Jewelry,Sports,Brand D,314.46,Highly rated gift,3.4
+Dallas,29,Male,Close Friend,26,Female,"Books, Sports",Thanksgiving,Low,Jewelry,Jewelry,Brand D,342.71,Highly rated gift,3.6
+San Francisco,31,Other,Girlfriend,9,Other,"Photography, Fitness",Raksha Bandhan,High,Toys,Sports,Brand B,421.15,Perfect for all ages,4
+San Francisco,21,Other,Grandmother,20,Male,"Fashion, Books, Travel",Festival,Low,Book,Sports,Brand D,274.32,Best seller,4.7
+New York,55,Female,Sibling,62,Female,Fitness,Graduation,High,Jewelry,Sports,Brand E,206.2,Perfect for all ages,4.9
+Dallas,63,Other,Fiancée,64,Other,"Travel, Books",Graduation,High,Accessories,Jewelry,Brand B,339.55,Highly rated gift,3.3
+Chicago,47,Female,Grandson,8,Male,Photography,Christmas,Low,Accessories,Toys,Brand B,302.18,Trending item,4
+Houston,49,Male,Brother,67,Male,"Sports, Books, Art",Retirement,Medium,Jewelry,Electronics,Brand B,25.87,High-quality product,3.3
+Houston,64,Female,Sibling,15,Female,"Music, Photography",Birthday,Medium,Perfume,Jewelry,Brand D,161.64,Perfect for all ages,4.8
+Seattle,55,Other,Partner,26,Female,Fashion,Farewell,Low,Teddy Bear,Accessories,Brand B,184.4,Perfect for all ages,3.9
+Dallas,65,Male,Sister-in-law,20,Male,"Music, Fashion, Books",Engagement,High,Teddy Bear,Jewelry,Brand A,86.39,Best seller,3.5
+Denver,23,Female,Grandfather,32,Female,"Art, Tech, Photography",Engagement,Medium,Perfume,Electronics,Brand E,126.56,High-quality product,3.7
+Seattle,26,Female,Student,71,Female,Tech,New Job,Low,Book,Books,Brand D,212.55,Trending item,4.7
+Boston,26,Other,Team Leader,24,Male,Fitness,Graduation,High,Sneakers,Electronics,Brand D,97.98,High-quality product,4.1
+Denver,45,Male,Brother,10,Other,"Gaming, Travel",Mother's Day,High,Jewelry,Jewelry,Brand E,341.69,Perfect for all ages,4.3
+Denver,53,Other,Sister,72,Male,"Art, Travel, Tech",Teacher's Day,Medium,Teddy Bear,Sports,Brand E,293.71,Trending item,3.6
+Dallas,59,Other,Close Friend,39,Male,Music,Friendship Day,Medium,Teddy Bear,Fashion,Brand C,310.68,High-quality product,3.8
+Chicago,43,Other,Son,13,Other,"Fitness, Travel",Birthday,High,Perfume,Accessories,Brand C,391.99,High-quality product,4
+Miami,36,Other,Close Friend,36,Female,Fitness,Valentine's Day,Medium,Jewelry,Sports,Brand E,191.54,High-quality product,4
+Los Angeles,34,Female,Brother-in-law,33,Other,"Sports, Music",Halloween,High,Sneakers,Jewelry,Brand C,215.41,Highly rated gift,4.3
+New York,29,Female,Nephew,61,Female,Art,Retirement,Medium,Perfume,Fashion,Brand D,395.81,Best seller,3.9
+Denver,62,Other,Client,24,Female,"Tech, Fashion, Books",Friendship Day,Low,Teddy Bear,Jewelry,Brand B,306.07,Trending item,3.7
+New York,19,Female,Wife,68,Other,"Gaming, Art",Graduation,Low,Teddy Bear,Fashion,Brand E,491.84,Trending item,4
+Houston,27,Other,Professor,28,Other,Fitness,Eid,High,Accessories,Electronics,Brand C,105.28,Highly rated gift,3.2
+Chicago,57,Other,Sister,7,Female,"Fashion, Books",Retirement,Low,Perfume,Fashion,Brand A,36.27,Trending item,4.3
+San Francisco,59,Other,Colleague,51,Female,"Photography, Tech, Art",Promotion,Medium,Book,Jewelry,Brand E,307.84,Highly rated gift,4.6
+Denver,32,Male,Father,30,Male,"Photography, Art, Music",New Job,High,Perfume,Jewelry,Brand A,442.26,Trending item,3.8
+New York,65,Male,Manager,34,Female,Books,Valentine's Day,Low,Toys,Fashion,Brand B,481.37,Best seller,4.8
+San Francisco,44,Female,Roommate,78,Male,"Sports, Fitness",New Year,High,Jewelry,Toys,Brand A,58.73,Best seller,3.4
+New York,29,Male,Mother-in-law,36,Female,"Fashion, Art",New Job,Low,Smartwatch,Accessories,Brand D,144.67,High-quality product,4.2
+New York,42,Other,Sibling,77,Male,"Art, Gaming, Fashion",Teacher's Day,Low,Accessories,Accessories,Brand A,195.07,Trending item,4
+Boston,64,Male,Husband,53,Male,"Tech, Art, Travel",Baby Shower,Low,Toys,Sports,Brand B,37.19,Perfect for all ages,3.5
+Denver,29,Female,Client,30,Female,"Sports, Fashion",Engagement,Medium,Teddy Bear,Accessories,Brand D,289.75,High-quality product,4.9
+Chicago,63,Other,Niece,34,Female,Photography,HouseWarming,High,Accessories,Electronics,Brand A,37.14,High-quality product,4.3
+New York,62,Male,Friend,73,Male,"Fitness, Books",Father's Day,Low,Jewelry,Toys,Brand D,387.19,Highly rated gift,3.2
+Chicago,29,Female,Father,23,Male,"Books, Art, Travel",Thanksgiving,Medium,Teddy Bear,Jewelry,Brand C,118.94,Perfect for all ages,4.9
+San Francisco,35,Female,Friend,29,Female,"Photography, Art, Books",Mother's Day,Low,Perfume,Accessories,Brand B,261.49,Highly rated gift,4
+Boston,44,Female,Grandson,59,Male,Sports,Baby Shower,Low,Accessories,Accessories,Brand A,331.53,High-quality product,4.5
+Los Angeles,18,Other,Sister,36,Female,"Books, Art",Easter,Low,Perfume,Books,Brand B,392.83,Best seller,3.6
+San Francisco,23,Other,Mother-in-law,62,Male,"Gaming, Music",Retirement,Medium,Teddy Bear,Toys,Brand A,78,Best seller,3.2
+Chicago,70,Other,Brother-in-law,65,Other,"Travel, Fitness, Gaming",Mother's Day,Low,Sneakers,Accessories,Brand B,451.25,High-quality product,3.6
+San Francisco,40,Female,Sister-in-law,76,Male,Photography,HouseWarming,Low,Jewelry,Toys,Brand C,461.68,Perfect for all ages,4.7
+Los Angeles,24,Other,Team Leader,52,Female,"Books, Sports",Anniversary,Low,Teddy Bear,Fashion,Brand E,352.2,Best seller,3.2
+San Francisco,59,Female,Mother,8,Female,"Gaming, Fashion",Teacher's Day,High,Teddy Bear,Electronics,Brand A,324.97,Highly rated gift,4.4
+Los Angeles,53,Other,Classmate,15,Male,"Sports, Fitness",Festival,Medium,Accessories,Electronics,Brand D,455.45,Best seller,4
+Houston,18,Male,Granddaughter,75,Other,Fashion,New Year,Low,Accessories,Toys,Brand D,190.73,Best seller,3.8
+Denver,22,Female,Son,68,Female,"Fashion, Music, Travel",Diwali,Low,Sneakers,Jewelry,Brand B,135.92,High-quality product,3.3
+Boston,36,Other,Sister-in-law,66,Male,"Travel, Books, Art",Halloween,High,Accessories,Jewelry,Brand A,292.33,Perfect for all ages,3.6
+New York,63,Other,Aunty,25,Male,Photography,Valentine's Day,Low,Sneakers,Electronics,Brand C,278.32,Trending item,4.7
+San Francisco,27,Male,Student,45,Female,Books,Graduation,High,Jewelry,Books,Brand E,167.8,High-quality product,4.8
+Houston,67,Female,Uncle,42,Other,"Photography, Travel",Farewell,Low,Toys,Sports,Brand B,168.95,Best seller,3.6
+New York,58,Male,Grandfather,29,Male,"Art, Photography, Fashion",Birthday,High,Smartwatch,Accessories,Brand B,97.6,Highly rated gift,4.9
+Miami,18,Female,Spouse,70,Other,"Art, Travel, Fitness",Wedding,Medium,Jewelry,Sports,Brand E,394.28,Highly rated gift,4.4
+Seattle,49,Male,Roommate,29,Female,Sports,Eid,Low,Teddy Bear,Jewelry,Brand B,77.5,Trending item,3.4
+Dallas,63,Female,Grandmother,42,Male,"Fitness, Fashion",Raksha Bandhan,Medium,Sneakers,Sports,Brand C,403.22,Highly rated gift,4.7
+Boston,33,Other,Employee,59,Female,"Fitness, Books",Thanksgiving,Low,Toys,Books,Brand C,235.82,Highly rated gift,3.9
+Los Angeles,40,Male,Father-in-law,17,Male,"Sports, Tech",HouseWarming,Low,Accessories,Jewelry,Brand D,386.75,High-quality product,3.2
+Houston,36,Other,Fiancé,29,Male,"Fitness, Tech",Retirement,Low,Jewelry,Sports,Brand A,477.27,Perfect for all ages,3.6
+Los Angeles,69,Female,Nephew,73,Male,"Art, Books",Christmas,High,Sneakers,Accessories,Brand C,17.42,Best seller,4.1
+Seattle,20,Male,Father-in-law,54,Male,"Fitness, Fashion, Tech",Diwali,Medium,Accessories,Fashion,Brand D,359.76,Highly rated gift,4.1
+Dallas,45,Other,Sister-in-law,14,Male,"Gaming, Sports",Mother's Day,Low,Perfume,Fashion,Brand C,239.24,Highly rated gift,3.8
+Boston,47,Male,Girlfriend,59,Female,Music,Anniversary,Medium,Book,Electronics,Brand B,290.62,High-quality product,3.9
+San Francisco,48,Other,Business Partner,45,Female,"Art, Fitness, Sports",Raksha Bandhan,Low,Teddy Bear,Accessories,Brand C,114.87,Highly rated gift,3.9
+Los Angeles,67,Male,Roommate,57,Female,"Travel, Art, Photography",Father's Day,High,Book,Fashion,Brand A,64.85,Trending item,4.8
+Houston,64,Other,Student,68,Female,"Tech, Art, Photography",Festival,Low,Book,Jewelry,Brand D,377.53,Best seller,3.5
+New York,54,Male,Team Leader,20,Male,Fitness,New Job,High,Smartwatch,Toys,Brand A,198.99,Trending item,4.1
+Los Angeles,31,Male,Employee,45,Female,"Art, Books",Engagement,Low,Sneakers,Accessories,Brand B,106,High-quality product,3.2
+Denver,68,Male,Brother,41,Male,Fashion,Halloween,Medium,Book,Jewelry,Brand B,390.22,Highly rated gift,4.2
+San Francisco,34,Female,Brother-in-law,65,Male,Fashion,Farewell,Medium,Toys,Books,Brand E,259.57,Highly rated gift,3.5
+Boston,23,Other,Wife,13,Other,"Books, Fitness, Art",Valentine's Day,Medium,Teddy Bear,Jewelry,Brand C,180.92,Perfect for all ages,3.3
+Seattle,41,Male,Parent,22,Other,"Gaming, Fitness",Graduation,High,Electronics,Accessories,Brand B,243.84,Trending item,4
+Seattle,68,Other,Close Friend,32,Other,Sports,HouseWarming,High,Smartwatch,Electronics,Brand D,414.75,Best seller,3.5
+San Francisco,26,Female,Boyfriend,52,Female,Fashion,Teacher's Day,Medium,Sneakers,Fashion,Brand D,392.47,Best seller,4.2
+Houston,26,Male,Daughter,36,Other,"Sports, Art",Father's Day,Medium,Perfume,Books,Brand B,25.42,Trending item,3.5
+Miami,30,Other,Mother,62,Female,"Fitness, Gaming, Sports",Teacher's Day,High,Accessories,Sports,Brand E,149.62,Perfect for all ages,4.2
+Chicago,45,Male,Husband,14,Male,"Art, Gaming",Thanksgiving,High,Smartwatch,Accessories,Brand B,434.9,Best seller,4
+San Francisco,19,Male,Colleague,45,Female,"Books, Music",Farewell,Medium,Electronics,Toys,Brand B,421.08,Best seller,4.8
+San Francisco,27,Other,Friend,38,Other,"Photography, Art, Fashion",Father's Day,Medium,Teddy Bear,Books,Brand E,373.06,Best seller,4.7
+Denver,43,Other,Roommate,69,Other,"Music, Art, Gaming",Teacher's Day,Medium,Accessories,Toys,Brand D,399.16,High-quality product,4.7
+Houston,67,Male,Niece,68,Female,"Fashion, Gaming, Travel",Baby Shower,Medium,Jewelry,Fashion,Brand E,351.02,Perfect for all ages,3.5
+Denver,58,Male,Parent,64,Other,"Photography, Tech",Promotion,Low,Jewelry,Books,Brand E,78.64,Perfect for all ages,4.7
+Chicago,38,Female,Sister-in-law,57,Female,"Fashion, Tech",Eid,Low,Smartwatch,Accessories,Brand A,193.77,High-quality product,3.2
+Los Angeles,69,Other,Grandfather,76,Female,Fitness,Farewell,Medium,Accessories,Accessories,Brand E,280.74,High-quality product,3.6
+Miami,56,Other,Daughter,50,Male,Books,Friendship Day,High,Toys,Jewelry,Brand C,423.32,Trending item,4.2
+Miami,43,Female,Grandmother,74,Other,"Sports, Music, Tech",Birthday,Low,Accessories,Electronics,Brand D,74.76,Best seller,3.8
+Chicago,39,Other,Daughter,46,Female,"Art, Fashion, Tech",Wedding,High,Smartwatch,Fashion,Brand E,143.06,Trending item,3.6
+Chicago,34,Other,Son,65,Male,"Fitness, Gaming",Baby Shower,Medium,Smartwatch,Jewelry,Brand B,376.01,Highly rated gift,3.1
+Los Angeles,66,Other,Roommate,68,Other,"Gaming, Books",Easter,High,Teddy Bear,Fashion,Brand C,280.61,Best seller,4.3
+San Francisco,29,Other,Neighbor,7,Female,"Sports, Tech, Books",Easter,Medium,Electronics,Books,Brand B,187.35,Trending item,3.3
+New York,30,Female,Grandfather,6,Other,"Photography, Art, Music",Mother's Day,Low,Teddy Bear,Jewelry,Brand C,311.78,Perfect for all ages,3.6
+Chicago,53,Male,Mother,60,Female,"Travel, Fitness",Easter,High,Sneakers,Accessories,Brand E,420.95,Highly rated gift,4.8
+Los Angeles,55,Male,Aunty,56,Male,Travel,Retirement,Low,Jewelry,Sports,Brand E,123.07,Highly rated gift,4
+New York,39,Female,Girlfriend,64,Female,Art,Birthday,Medium,Teddy Bear,Sports,Brand B,354.45,Best seller,3.6
+Houston,30,Male,Student,24,Female,"Tech, Fashion",Baby Shower,Medium,Sneakers,Accessories,Brand E,159.9,Best seller,3.2
+Boston,55,Other,Father,53,Female,Books,Thanksgiving,High,Electronics,Books,Brand D,11.15,Trending item,3.7
+San Francisco,23,Female,Sibling,34,Other,"Tech, Travel, Photography",Christmas,High,Book,Fashion,Brand B,340.36,Best seller,3.9
+Los Angeles,29,Other,Uncle,27,Female,"Photography, Travel, Fashion",Mother's Day,Medium,Jewelry,Fashion,Brand D,30.94,Highly rated gift,4.5
+Dallas,55,Other,Grandfather,56,Female,Books,Father's Day,Low,Accessories,Fashion,Brand B,296.93,Trending item,3.2
+Miami,60,Female,Friend,46,Male,"Fitness, Tech",Anniversary,High,Electronics,Sports,Brand E,19.65,Trending item,4.3
+Seattle,69,Male,Employee,71,Female,"Gaming, Books, Music",Thanksgiving,High,Toys,Electronics,Brand A,337.41,Perfect for all ages,3.6
+Houston,33,Other,Professor,32,Other,Fashion,HouseWarming,High,Sneakers,Accessories,Brand A,357.48,Best seller,3.8
+Dallas,59,Other,Sister-in-law,76,Male,"Books, Art",Mother's Day,Low,Smartwatch,Books,Brand C,208.74,Highly rated gift,4.8
+Los Angeles,32,Male,Mentor,26,Female,"Fashion, Fitness, Music",New Year,High,Perfume,Jewelry,Brand C,103.36,Highly rated gift,3.7
+Los Angeles,19,Other,Best Friend,60,Other,"Tech, Photography, Gaming",Retirement,Low,Smartwatch,Books,Brand D,372.1,Trending item,4.6
+Chicago,26,Male,Grandson,60,Other,Music,Anniversary,High,Toys,Accessories,Brand D,417.13,Best seller,4.4
+Dallas,58,Male,Girlfriend,20,Female,"Fitness, Photography, Tech",Wedding,Low,Jewelry,Electronics,Brand A,175.76,Perfect for all ages,3.5
+Dallas,33,Other,Parent,22,Male,Gaming,Eid,Medium,Sneakers,Accessories,Brand E,221.43,Highly rated gift,4.4
+Boston,44,Female,Fiancée,67,Male,"Music, Fashion",Easter,Low,Teddy Bear,Accessories,Brand D,485.65,Best seller,3.5
+San Francisco,47,Other,Aunty,74,Female,"Books, Fashion, Art",Diwali,Low,Teddy Bear,Jewelry,Brand D,482.7,Trending item,3.4
+Miami,61,Male,Husband,40,Other,Photography,Farewell,Medium,Electronics,Jewelry,Brand D,397.51,Highly rated gift,3.4
+Boston,70,Female,Student,41,Male,"Sports, Travel",New Year,High,Sneakers,Electronics,Brand E,193.58,Best seller,4.1
+Dallas,32,Female,Mother-in-law,72,Male,"Photography, Books",Easter,High,Jewelry,Fashion,Brand E,495.98,Trending item,3.5
+Chicago,43,Other,Partner,8,Other,"Fashion, Art",Baby Shower,Medium,Perfume,Books,Brand B,230.29,Perfect for all ages,4.8
+Los Angeles,55,Female,Niece,71,Male,Books,Retirement,Low,Electronics,Books,Brand C,70.31,Perfect for all ages,3.1
+Los Angeles,18,Male,Childhood Friend,69,Other,"Photography, Gaming",Teacher's Day,Medium,Smartwatch,Sports,Brand B,324.69,High-quality product,4.9
+Dallas,23,Other,Business Partner,70,Male,Gaming,Christmas,Medium,Toys,Jewelry,Brand D,419.51,Trending item,3.4
+Miami,64,Female,Grandson,44,Female,"Tech, Sports",Teacher's Day,Low,Perfume,Jewelry,Brand C,332.28,High-quality product,3.6
+Chicago,26,Other,Boss,47,Other,"Art, Travel, Tech",Father's Day,High,Book,Sports,Brand B,386.73,Highly rated gift,3
+San Francisco,24,Male,Father-in-law,60,Other,"Fashion, Photography, Travel",Teacher's Day,High,Jewelry,Toys,Brand A,452.45,Best seller,3.4
+Chicago,35,Male,Granddaughter,54,Male,"Gaming, Art, Tech",Diwali,High,Smartwatch,Accessories,Brand C,331.24,Best seller,3.5
+Seattle,26,Other,Fiancée,12,Other,"Fashion, Books",Mother's Day,Low,Smartwatch,Books,Brand B,12.08,Highly rated gift,3.5
+Dallas,62,Male,Grandparent,80,Other,Tech,Birthday,High,Perfume,Jewelry,Brand A,485.42,Best seller,3.9
+Dallas,34,Other,Employee,59,Other,"Fashion, Music",Farewell,Medium,Electronics,Toys,Brand C,128.29,Best seller,4.3
+Chicago,46,Female,Grandson,18,Male,"Photography, Music",Raksha Bandhan,Medium,Sneakers,Electronics,Brand A,106.72,High-quality product,3.6
+Houston,28,Male,Professor,54,Female,"Music, Books",Thanksgiving,High,Book,Fashion,Brand D,403.97,Perfect for all ages,4.2
+Houston,21,Other,Brother,29,Other,"Art, Books",Anniversary,Medium,Teddy Bear,Toys,Brand C,297.25,Trending item,4
+Houston,22,Male,Neighbor,60,Male,"Gaming, Sports, Fitness",Engagement,Medium,Teddy Bear,Toys,Brand B,132.31,Trending item,3.9
+Denver,69,Male,Spouse,27,Female,"Fashion, Sports, Music",Friendship Day,High,Sneakers,Jewelry,Brand D,166.22,Trending item,3.6
+Boston,61,Other,Cousin,8,Other,Books,Valentine's Day,High,Book,Sports,Brand A,215.81,Highly rated gift,4.4
+Seattle,35,Male,Grandfather,34,Male,"Fitness, Sports, Music",Valentine's Day,High,Perfume,Accessories,Brand E,199.09,Trending item,3.9
+Chicago,28,Other,Brother-in-law,22,Male,Books,Christmas,Low,Jewelry,Jewelry,Brand D,14.41,High-quality product,3.6
+Miami,45,Male,Mother,8,Male,"Books, Gaming",Teacher's Day,Medium,Electronics,Books,Brand D,154.85,Highly rated gift,3.4
+Denver,29,Female,Girlfriend,41,Female,"Fitness, Music",Baby Shower,High,Electronics,Toys,Brand E,24.5,Highly rated gift,3.8
+San Francisco,31,Other,Classmate,67,Male,"Music, Photography, Books",Raksha Bandhan,Low,Perfume,Fashion,Brand A,104.35,Perfect for all ages,4.3
+Miami,39,Female,Husband,43,Other,Books,Raksha Bandhan,High,Toys,Fashion,Brand D,101.46,Highly rated gift,3.8
+Los Angeles,34,Other,Mother,71,Other,"Music, Fitness",Retirement,Low,Jewelry,Fashion,Brand A,190.32,Trending item,3.7
+Boston,60,Male,Wife,59,Female,"Tech, Sports",Christmas,High,Perfume,Books,Brand D,488.35,Trending item,4
+Chicago,34,Male,Niece,12,Male,"Fitness, Tech",Halloween,Low,Smartwatch,Electronics,Brand B,315.24,High-quality product,3.1
+Houston,32,Female,Father-in-law,16,Female,Books,Father's Day,Medium,Teddy Bear,Electronics,Brand E,55.25,Trending item,3.8
+New York,49,Other,Partner,68,Other,"Music, Gaming",New Year,Medium,Accessories,Electronics,Brand E,469.73,High-quality product,3.5
+San Francisco,70,Other,Aunty,57,Male,"Fitness, Art",Wedding,Medium,Accessories,Fashion,Brand E,43.36,Perfect for all ages,3.4
+Los Angeles,58,Male,Employee,29,Other,Sports,Raksha Bandhan,High,Smartwatch,Accessories,Brand C,387.01,Best seller,4.6
+New York,46,Male,Mother-in-law,10,Male,"Art, Music",Anniversary,High,Accessories,Electronics,Brand B,13.16,High-quality product,4.4
+Houston,66,Other,Wife,57,Other,"Gaming, Fashion",Graduation,Medium,Jewelry,Fashion,Brand C,40.13,Highly rated gift,4.9
+Miami,21,Other,Mother-in-law,55,Other,Gaming,Promotion,Low,Book,Jewelry,Brand D,111.79,Perfect for all ages,3.7
