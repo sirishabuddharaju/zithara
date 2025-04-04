@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Register</title>
 <style>
-        /* General Styling */
+
        body {
             font-family: 'Poppins', sans-serif;
             background: linear-gradient(to right,#FF69B2, #FFC0CB);
@@ -13,12 +13,12 @@
             flex-direction: column;
             align-items: center;
             margin: 0;
-            padding-top: 80px; /* Adjust for fixed navbar */
-            padding-bottom: 60px; /* Adjust for fixed footer */
+            padding-top: 80px;
+            padding-bottom: 60px;
             min-height: 100vh;
         }
 
-        /* Navbar Styling */
+
         .navbar {
             display: flex;
             justify-content: space-between;
@@ -59,7 +59,7 @@
             background-color: #b54e88;
         }
 
-        /* Form Container */
+
         form {
             background-color: #ffffff;
             padding: 30px;
@@ -71,7 +71,7 @@
             margin-top: 20px;
         }
 
-        /* Input Fields & Select Dropdowns */
+
         input {
             width: 93%;
             padding: 12px;
@@ -84,9 +84,9 @@
             font-weight: bold;
         }
 
-        /* Submit Button */
+
         button {
-            background-color: #D8BFD8; /* Light purple */
+            background-color: #D8BFD8;
             color: white;
             border: none;
             padding: 14px;
@@ -98,10 +98,10 @@
         }
 
         button:hover {
-            background-color: #9a4eae; /* Darker purple */
+            background-color: #9a4eae;
         }
 
-        /* Footer Styling */
+
         .footer {
             background-color: #343a40;
             color: white;
@@ -114,7 +114,7 @@
             font-size: 14px;
         }
 
-        /* Responsive Design */
+
         @media screen and (max-width: 768px) {
             .menu-toggle {
                 display: block;
@@ -136,7 +136,7 @@
             }
 
             form {
-                width: 90%; /* Adjust width for smaller screens */
+                width: 90%;
             }
         }
     </style>
@@ -167,13 +167,11 @@
         document.getElementsByName("username")[0].setAttribute("autocomplete", "off");
         document.getElementsByName("password")[0].setAttribute("autocomplete", "new-password");
         document.getElementsByName("confirm_password")[0].setAttribute("autocomplete", "new-password");
-
-        // Clear any pre-filled values
         document.getElementsByName("username")[0].value = "";
         document.getElementsByName("password")[0].value = "";
         document.getElementsByName("confirm_password")[0].value = "";
     };
-};
+
 
 </script>
     <h2>Register as a  User</h2>

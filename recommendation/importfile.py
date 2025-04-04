@@ -8,16 +8,14 @@ django.setup()  # This initializes Django settings
 from recommendation.models import Recipient
 
 
-# from recommendation.models import Recipient
-
 
 def import_file():
-    # Path to the CSV file (you can adjust this based on where your file is)
+
     print(1)
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     DATASET_PATH = os.path.join(BASE_DIR, "personalized_gift_recommendation.csv")
 
-    # Read the CSV file using pandas
+
     df = pd.read_csv(DATASET_PATH)
 
     # Loop through each row in the dataframe and save it to the database
