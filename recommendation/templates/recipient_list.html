@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Recipient List</title>
+    <title>Recipient Delete</title>
     <style>
-
         body {
             font-family: 'Poppins', sans-serif;
-            background: linear-gradient(to right,#FF69B2, #FFC0CB);
+            background: linear-gradient(to right, #FF69B2, #FFC0CB);
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -57,24 +56,6 @@
             background-color: #b54e88;
         }
 
-
-        button {
-            background-color: #D8BFD8;
-            color: white;
-            border: none;
-            padding: 14px;
-            border-radius: 5px;
-            font-size: 18px;
-            cursor: pointer;
-            transition: 0.3s ease-in-out;
-            font-weight: bold;
-        }
-
-        button:hover {
-            background-color: #9a4eae;
-        }
-
-
         .footer {
             background-color: #343a40;
             color: white;
@@ -87,52 +68,50 @@
             font-size: 14px;
         }
 
-
-        .table-container {
-            width: 90%;
-            margin: 20px auto;
-            overflow-x: auto;
+        /* Card layout styles */
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
         }
 
-        table {
+        .card {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            max-width: 350px;
             width: 100%;
-            border-collapse: collapse;
-            background: white;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.3s ease;
         }
 
-        th, td {
-            padding: 12px;
-            border: 1px solid #ddd;
-            text-align: left;
+        .card:hover {
+            transform: translateY(-5px);
         }
 
-        th {
-            background: #d16ba5;
-            color: white;
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
         }
 
-        tr:nth-child(even) {
-            background-color: #f8f9fa;
+        .card-header h3 {
+            margin: 0;
+            font-size: 20px;
+            color: #d16ba5;
         }
 
-        tr:hover {
-            background-color: #ddd;
-        }
-
-
-
-
-        a {
-            text-decoration: none;
-            padding: 8px 12px;
-            border-radius: 5px;
+        .card-body p {
+            margin: 5px 0;
             font-size: 14px;
-            font-weight: bold;
+            line-height: 1.4;
         }
-
 
 
 
@@ -145,53 +124,37 @@
                 display: none;
                 flex-direction: column;
                 position: absolute;
-                top: 50px;
-                left: 0;
-                width: 100%;
-                background: #007bff;
-                padding: 10px 0;
-            }
-
-            .nav-links a {
-                display: block;
-                text-align: center;
+                top: 60px;
+                right: 20px;
+                background-color: #d16ba5;
+                border-radius: 8px;
                 padding: 10px;
+                width: 200px;
             }
 
             .nav-links.active {
                 display: flex !important;
             }
 
-            table {
-                font-size: 12px;
-            }
-
-            th, td {
-                padding: 8px;
-            }
-
-            a {
-                font-size: 12px;
-                padding: 6px 10px;
+            .card {
+                max-width: 100%;
             }
         }
-
     </style>
 </head>
 <body>
- <div>
-    <nav class="navbar">
-        <div class="menu-toggle" onclick="toggleMenu()">|||||</div>
-        <div class="nav-links">
-              <a href="{% url 'home' %}">Home</a>
-            <a href="{%url 'adddata'%}">Add Data</a>
-            <a href="{%url 'recipient_list'%}">View Data</a>
-            <a href="{%url 'recipient_update'%}">Update Data</a>
-            <a href="{%url 'recipient_delete'%}">Delete Data</a>
-             <a href="{%url 'admin_logout'%}">Logout</a>
-
-        </div>
-    </nav>
+    <div>
+        <nav class="navbar">
+            <div class="menu-toggle" onclick="toggleMenu()">|||||</div>
+            <div class="nav-links">
+                <a href="{% url 'home' %}">Home</a>
+                <a href="{% url 'adddata' %}">Add Data</a>
+                <a href="{% url 'recipient_list' %}">View Data</a>
+                <a href="{% url 'recipient_update' %}">Update Data</a>
+                <a href="{% url 'recipient_delete' %}">Delete Data</a>
+                <a href="{% url 'admin_logout' %}">Logout</a>
+            </div>
+        </nav>
     </div>
 
     <script>
@@ -200,51 +163,36 @@
             navLinks.classList.toggle('active');
         }
     </script>
-<div>
-    <h1 style="text-align: center;">Recipient List</h1>
-    <div class="table-container">
-        <table>
-            <tr>
-                <th>User Location</th>
-                <th>User Age</th>
-                <th>User Gender</th>
-                <th>Recipient Relationship</th>
-                <th>Recipient Age</th>
-                <th>Recipient Gender</th>
-                <th>Recipient Interests</th>
-                <th>Special Occasion</th>
-                <th>Budget Preference</th>
-                <th>Gift Name</th>
-                <th>Category</th>
-                <th>Brand</th>
-                <th>Price</th>
-                <th>Description</th>
-                <th>Gift Rating</th>
 
-            </tr>
-            {% for recipient in recipients %}
-            <tr>
-                <td>{{ recipient.user_location }}</td>
-                <td>{{ recipient.user_age }}</td>
-                <td>{{ recipient.user_gender }}</td>
-                <td>{{ recipient.recipient_relationship }}</td>
-                <td>{{ recipient.recipient_age }}</td>
-                <td>{{ recipient.recipient_gender }}</td>
-                <td>{{ recipient.recipient_interests }}</td>
-                <td>{{ recipient.special_occasion }}</td>
-                <td>{{ recipient.budget_preference }}</td>
-                <td>{{ recipient.gift_name }}</td>
-                <td>{{ recipient.category }}</td>
-                <td>{{ recipient.brand }}</td>
-                <td>{{ recipient.price }}</td>
-                <td>{{ recipient.description }}</td>
-                <td>{{ recipient.gift_rating }}</td>
-            </tr>
-            {% endfor %}
-        </table>
+    <h1 style="text-align: center;">Recipient List</h1>
+    <div class="card-container">
+        {% for recipient in recipients %}
+        <div class="card">
+            <div class="card-header">
+                <h3>{{ recipient.gift_name }}</h3>
+
+            </div>
+            <div class="card-body">
+                <p><strong>User Location:</strong> {{ recipient.user_location }}</p>
+                <p><strong>User Age:</strong> {{ recipient.user_age }}</p>
+                <p><strong>User Gender:</strong> {{ recipient.user_gender }}</p>
+                <p><strong>Recipient Relationship:</strong> {{ recipient.recipient_relationship }}</p>
+                <p><strong>Recipient Age:</strong> {{ recipient.recipient_age }}</p>
+                <p><strong>Recipient Gender:</strong> {{ recipient.recipient_gender }}</p>
+                <p><strong>Recipient Interests:</strong> {{ recipient.recipient_interests }}</p>
+                <p><strong>Special Occasion:</strong> {{ recipient.special_occasion }}</p>
+                <p><strong>Budget Preference:</strong> {{ recipient.budget_preference }}</p>
+                <p><strong>Category:</strong> {{ recipient.category }}</p>
+                <p><strong>Brand:</strong> {{ recipient.brand }}</p>
+                <p><strong>Price:</strong> ₹{{ recipient.price }}</p>
+                <p><strong>Description:</strong> {{ recipient.description }}</p>
+                <p><strong>Gift Rating:</strong> ⭐{{ recipient.gift_rating }}</p>
+            </div>
+        </div>
+        {% endfor %}
     </div>
-</div>
-<footer class="footer">
+
+    <footer class="footer">
         <p>&copy; Buddharaju Sirisha | Finding the perfect gift made easy.</p>
     </footer>
 </body>
