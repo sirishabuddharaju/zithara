@@ -113,8 +113,8 @@
             line-height: 1.4;
         }
 
-        edit-btn{
-            background-color: green;
+        .edit-btn {
+            background-color: #28a745; ;
             color: white;
             border: none;
             padding: 8px 12px;
@@ -125,8 +125,8 @@
             transition: background-color 0.3s;
         }
 
-       edit-btn {
-            background-color: #c82333;
+        .edit-btn:hover {
+            background-color: #218838;
         }
 
         @media (max-width: 768px) {
@@ -184,7 +184,7 @@
         <div class="card">
             <div class="card-header">
                 <h3>{{ recipient.gift_name }}</h3>
-                 <a href="{% url 'edit_recipient' recipient.pk %}" class="edit-btn" >update</a>
+                <a href="{% url 'edit_recipient' recipient.pk %}" class="edit-btn" >update</a>
             </div>
             <div class="card-body">
                 <p><strong>User Location:</strong> {{ recipient.user_location }}</p>
@@ -211,4 +211,3 @@
     </footer>
 </body>
 </html>
-

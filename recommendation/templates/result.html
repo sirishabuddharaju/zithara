@@ -234,9 +234,6 @@ h2 {
     <div class="gift-container">
         {% for i in data %}
             <div class="gift-box">
-                {% if i.gift_name == "Teddy Bear" %}
-                    <img src="" width="100">
-                {% endif %}
                 <div class="gift-details">
                     <p>{{ i.gift_name }} <br> ${{ i.price }}</p>
                 </div>
