@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ultimate Gift Selector</title>
     <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f8e8ee;
+        * {
+            box-sizing: border-box;
         }
 
-
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8e8ee;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
 
         .navbar {
             display: flex;
@@ -20,18 +26,12 @@
             padding: 15px 20px;
             background-color: #d16ba5;
             color: white;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
         }
-
-
 
         .nav-links {
             display: flex;
             gap: 15px;
-            margin-right: 20px;
+            flex-wrap: wrap;
         }
 
         .nav-links a {
@@ -48,6 +48,7 @@
         }
 
         .main {
+            flex: 1;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -69,10 +70,6 @@
             margin-bottom: 30px;
         }
 
-        .bts {
-            margin-top: 10px;
-        }
-
         .bts a {
             display: inline-block;
             text-decoration: none;
@@ -80,7 +77,7 @@
             font-size: 1.2rem;
             font-weight: bold;
             border: 2px solid #4b0082;
-            background-color:#9a4eae ;
+            background-color:#9a4eae;
             padding: 15px 30px;
             border-radius: 10px;
             transition: all 0.3s ease;
@@ -88,15 +85,13 @@
 
         .bts a:hover {
             background-color: #4b0082;
-            color: white;
             border-color: #9370db;
         }
 
         .footer {
             background-color: #343a40;
-            color: #ffffff;
-            padding: 40px 20px;
-            text-align: center;
+            color: white;
+            padding: 15px 20px;
             font-size: 14px;
         }
 
@@ -106,13 +101,12 @@
             justify-content: space-between;
             max-width: 1200px;
             margin: auto;
-            padding-bottom: 20px;
+            gap: 20px;
         }
 
         .footer-about {
             flex: 1;
             min-width: 300px;
-            margin-bottom: 20px;
         }
 
         .footer-links {
@@ -125,55 +119,41 @@
             text-transform: uppercase;
         }
 
-        .footer-links ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .footer-links ul li {
-            margin-bottom: 8px;
-        }
-
-        .footer-links ul li a {
+        .footer-links a {
+            display: block;
             color: #ffffff;
             text-decoration: none;
-            transition: color 0.3s;
+            margin-bottom: 5px;
         }
 
-        .footer-links ul li a:hover {
+        .footer-links a:hover {
             color: #d16ba5;
         }
 
         .footer-bottom {
             border-top: 1px solid #ffffff33;
             padding-top: 10px;
+            text-align: center;
             font-size: 12px;
         }
 
         @media screen and (max-width: 768px) {
-            .menu-toggle {
-                display: block;
-            }
-
             .nav-links {
-                display: none;
-                position: absolute;
-                top: 60px;
-                right: 20px;
-                background-color: #d16ba5;
-                border-radius: 8px;
                 flex-direction: column;
-                gap: 10px;
-                padding: 10px;
-            }
-
-            .nav-links.active {
-                display: flex !important;
+                align-items: flex-start;
             }
 
             .footer-container {
                 flex-direction: column;
                 text-align: center;
+            }
+
+            .header h1 {
+                font-size: 1.8rem;
+            }
+
+            .description {
+                font-size: 1rem;
             }
         }
     </style>
@@ -181,56 +161,54 @@
 <body>
     <nav class="navbar">
         <div class="menu-toggle" onclick="toggleMenu()">|||||</div>
-        <div class="nav-links">
-
+        <div class="nav-links" id="navLinks">
             <a href="{% url 'home' %}">Home</a>
             <a href="{% url 'filter' %}">Filters</a>
             <a href="{% url 'about' %}">About Us</a>
-            <a href="{%url 'contact_view'%}">Contact Us</a>
+            <a href="{% url 'contact_view' %}">Contact Us</a>
             <a href="{% url 'admin_login' %}">Add Data</a>
-             <a href="{% url 'user_logout' %}">Logout</a>
-
+            <a href="{% url 'user_logout' %}">Logout</a>
         </div>
     </nav>
 
     <script>
         function toggleMenu() {
-            const navLinks = document.querySelector('.nav-links');
+            const navLinks = document.getElementById('navLinks');
             navLinks.classList.toggle('active');
         }
     </script>
 
-
-
     <div class="main">
-        <div class="header"><h1>Welcome, {{ user.username }} to Ultimate Gift Selector</h1></div>
-        <div class="description">Discover the perfect gift for every occasion with personalized recommendations.
-        Browse popular categories, trending gifts, and exclusive offers to find something special.</div>
-        <div class="bts"><a href="{% url 'filter' %}">Recommend</a></div>
+        <div class="header">
+            <h1>Welcome, {{ user.username }} to Ultimate Gift Selector</h1>
+        </div>
+        <div class="description">
+            Discover the perfect gift for every occasion with personalized recommendations.
+            Browse popular categories, trending gifts, and exclusive offers to find something special.
+        </div>
+        <div class="bts">
+            <a href="{% url 'filter' %}">Recommend</a>
+        </div>
     </div>
 
-   <footer class="footer">
-    <div class="footer-container">
-        <div class="footer-about">
-            <p>Bringing joy through thoughtful gifts. Let us help you find the perfect match for every occasion.</p>
-        </div>
-        <div class="footer-links">
-            <h3>Quick Links</h3>
-            <ul>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <p>Bringing joy through thoughtful gifts. Let us help you find the perfect match for every occasion.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
                 <a href="{% url 'home' %}">Home</a>
-            <a href="{% url 'filter' %}">Filters</a>
-            <a href="{% url 'about' %}">About Us</a>
-            <a href="{%url 'contact_view'%}">Contact Us</a>
-            <a href="{% url 'admin_login' %}">Add Data</a>
-             <a href="{% url 'user_logout' %}">Logout</a>
-
-
-            </ul>
+                <a href="{% url 'filter' %}">Filters</a>
+                <a href="{% url 'about' %}">About Us</a>
+                <a href="{% url 'contact_view' %}">Contact Us</a>
+                <a href="{% url 'admin_login' %}">Add Data</a>
+                <a href="{% url 'user_logout' %}">Logout</a>
+            </div>
         </div>
-    </div>
-    <div class="footer-bottom">
-        <p>&copy; Buddharaju Sirisha</p>
-    </div>
-</footer>
+        <div class="footer-bottom">
+            <p>&copy; Buddharaju Sirisha</p>
+        </div>
+    </footer>
 </body>
 </html>
