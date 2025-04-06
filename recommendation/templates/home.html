@@ -217,7 +217,13 @@
         <div class="footer-links">
             <h3>Quick Links</h3>
             <ul>
-                <li><a href="{% url 'filter' %}">Filters</a></li>
+                <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'filter' %}">Filters</a>
+            <a href="{% url 'about' %}">About Us</a>
+            <a href="{%url 'contact_view'%}">Contact Us</a>
+            <a href="{% url 'admin_login' %}">Add Data</a>
+             <a href="{% url 'user_logout' %}">Logout</a>
+
 
             </ul>
         </div>
